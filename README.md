@@ -12,7 +12,7 @@ git clone https://github.com/LuckFire/BetterChannelIndicators
 
 For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste the following code:
 ```
-@import url("https://raw.githack.com/LuckFire/BetterChannelIndiactors/main/src/source.css")
+@import url("https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/source.css")
 
 :root {
     --unread-badge: rgba(255, 255, 255, 0.6);
