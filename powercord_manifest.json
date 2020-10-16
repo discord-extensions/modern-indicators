@@ -3,7 +3,7 @@
     "description": "Adds a nice touch to Discord's current channel indicators.",
     "version": "1.0.0",
     "author": "LuckFire#48000",
-    "theme": "indicators.css",
+    "theme": "./src/source.css",
     "consent": "false",
     "license": "MIT"
 }
