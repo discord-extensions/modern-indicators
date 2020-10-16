@@ -21,7 +21,7 @@ For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste
     --selected-bg: rgba(112, 135, 215, 0.1);
     --selected-bg-hover: rgba(112, 135, 215, 0.18);
     --hovered-bg: rgba(79, 84, 92, 0.25);
-    --bg-rounding: 0px 25px 25px 0px;
+    --bg-rounding: 0 50px 50px 0;
     --border-info: 2px solid;
 }
 ```
