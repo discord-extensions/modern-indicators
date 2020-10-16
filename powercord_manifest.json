@@ -3,7 +3,8 @@
     "description": "Adds a nice touch to Discord's current channel indicators.",
     "version": "1.0.0",
     "author": "LuckFire#48000",
-    "theme": "./src/source.css",
+    "theme": "indicators.css",
+    "_theme_comment": "If you don't want to use the importing, change this to ./src/source.css (but note that you will no longer get automatic updating.)",
     "consent": "false",
     "license": "MIT"
 }
