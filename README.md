@@ -2,7 +2,7 @@
 Adds a nice touch to Discord's current channel indicators.
 
 ## Preview
-![Preview]()
+![Preview](https://github.com/LuckFire/BetterChannelIndiactors/blob/main/src/Preview.gif?raw=true)
 
 ## Installation
 For manual installation, go to **your themes folder, open a command prompt / powershell / terminal / or git bash** and enter the following:
@@ -12,7 +12,7 @@ git clone https://github.com/LuckFire/BetterChannelIndicators
 
 For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste the following code:
 ```
-@import url("")
+@import url("https://raw.githack.com/LuckFire/BetterChannelIndiactors/main/src/source.css")
 
 :root {
     --unread-badge: rgba(255, 255, 255, 0.6);
