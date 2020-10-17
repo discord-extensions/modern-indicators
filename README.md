@@ -25,3 +25,6 @@ For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste
     --border-info: 2px solid;
 }
 ```
+
+## Customization
+There's a lot that you can customize using the varibles. To customize, go to **Themes Folder -> Open indicators.css**, there you can change anything that you want to change. This ranges from the badge colors/background colors and transparency to the rounding of the background and how wide the badge is. 
