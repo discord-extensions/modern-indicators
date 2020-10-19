@@ -27,7 +27,7 @@ For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste
 ```
 
 ## Variable Customization
-Using the variables in the indicators.css file, you are able to customize a multitude of things. Ranging from the color/transparency of the color for the badges/backgrounds, to the rounding of the borders, you can customize basically everything. If you don't know how to access this file, go to your **Themes Folder -> BetterChannelIndicators -> indicators.css**, and inside of the :root, you should see all of the variables. If you need even more of a guide on which changes which, read below.
+Using the variables in the indicators.css file, you are able to customize a multitude of things. Ranging from the color and transparency of the color, the badges/backgrounds color, to the rounding of the borders, you can customize basically everything. If you don't know how to access this file, go to your **Themes Folder -> BetterChannelIndicators -> indicators.css**, and inside of the :root, you should see all of the variables. If you need even more of a guide on which changes which, read below.
 ```
 - Anything with -bg is the backgruond of the channel that is selected/unread. (unread-bg, selected-bg, hovered-bg)
 - Anything that has -badge next to it is the thing that appears to the left of the channel that is selected/unread. (unread-badge, selected-badge).
