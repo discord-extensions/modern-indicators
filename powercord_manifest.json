@@ -1,7 +1,7 @@
 {
     "name": "Better Channel Indicators",
     "description": "Adds a nice touch to Discord's current channel indicators.",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "author": "LuckFire#48000",
     "theme": "indicators.css",
     "_theme_comment": "If you don't want to use the importing, change theme to ./src/source.css (but note that you will no longer get automatic updating.)",
