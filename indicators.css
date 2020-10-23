@@ -1,4 +1,4 @@
-@import url("https://raw.githack.com/LuckFire/BetterChannelIndiactors/main/src/source.css");
+@import url("https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/source.css");
 
 :root {
     --unread-badge: rgba(255, 255, 255, 0.6);
@@ -8,5 +8,5 @@
     --selected-bg-hover: rgba(112, 135, 215, 0.18);
     --hovered-bg: rgba(79, 84, 92, 0.25);
     --bg-rounding: 0 50px 50px 0;
-    --border-info: 2px solid;
+    --badge-info: 2px;
 }
