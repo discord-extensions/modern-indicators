@@ -10,7 +10,7 @@ For manual installation, go to **your themes folder, open a command prompt / pow
 git clone https://github.com/LuckFire/BetterChannelIndicators
 ```
 
-For quick installation, go to **Settings -> Themes -> Quick CSS** and copy-paste the following code:
+For quick installation (not recommended), go to **Settings -> Themes -> Quick CSS** and copy-paste the following code:
 ```
 @import url("https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/source.css");
 
