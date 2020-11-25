@@ -11,7 +11,7 @@ git clone https://github.com/LuckFire/BetterChannelIndicators
 ```
 
 For quick installation (not recommended), go to **Settings -> Themes -> Quick CSS** and copy-paste the following code:
-```
+```css
 @import url("https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/source.css");
 
 :root {
