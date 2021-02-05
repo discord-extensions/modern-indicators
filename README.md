@@ -33,12 +33,15 @@ git pull
 
 # Customization
 In order to customize the colors / roundeness, head over to `./src/_root.scss`, and you can mess with the variables to your liking.
+
 Variables with -bg is the background of the indicator that is unread or selected.
 - unread-bg, selected-bg, hovered-bg
+
 Variables with -badge next to it is the thing that appears to the left of the channel that is unread or selected.
 - unread-badge, selected-badge
 hovered-bg is for the standard background hover, while selected-bg-hover is for the selected channel when on hover.
 - hovered-bg also affects hovering on unread channels.
+
 bg-rounding is the rounding of the right side of the channel, but you can customize this to round the entire thing or completely remove rounding. Default rounding is 2px.
 - If you want to round the entire thing, remove everything and change it to #px (# being what you want it to round to)
 - If you want to remove rounding, remove everything and change it to 0.
