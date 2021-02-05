@@ -1,0 +1,72 @@
+#app-mount {
+    // Removes Original Indiactors
+    .content-1x5b-n, 
+    .channel-2QD9_O .layout-2DM8Md {
+        background: none;
+    }
+
+    // Badges
+    .modeSelected-346R90,
+    .modeUnread-1qO3K1 {
+        &::before {
+            content: "";
+            position: absolute;
+            height: 34px;
+            top: 0;
+        }
+    }
+    .channel-2QD9_O.selected-aXhQR6::before {
+        content: "";
+        position: absolute;
+        height: 44px;
+        top: 0;
+    }
+
+    // Channel Selected
+    .modeSelected-346R90,
+    .channel-2QD9_O.selected-aXhQR6 {
+        background: var(--selected-bg);
+        border-radius: var(--bg-rounding);
+
+        &:hover {
+            background: var(--selected-bg-hover);
+        }
+
+        &::before {
+            border-left: var(--border-info) var(--selected-badge);
+        }
+    }
+
+    // Channel Unread
+    .unread-2lAfLh {
+        display: none;
+    }
+    .modeUnread-1qO3K1 {
+        background: var(--unread-bg);
+        border-radius: var(--bg-rounding);
+
+        &::before {
+            border-left: var(--border-info) var(--unread-badge);
+        }
+    }
+
+    // Channel Hover
+    .modeUnread-1qO3K1,
+    .wrapper-2jXpOf:not(.modeSelected-346R90),
+    .channel-2QD9_O.container-2Pjhx-:not(.selected-aXhQR6) {
+        &:hover {
+            background: var(--hovered-bg);
+            border-radius: var(--bg-rounding);
+        }
+    }
+
+    // Fixes
+    .channel-2QD9_O.container-2Pjhx- {
+        margin-left: 0;
+        max-width: 235px;
+
+        div .avatar-3uk_u9 {
+            margin-left: 5px;
+        }
+    }
+}
