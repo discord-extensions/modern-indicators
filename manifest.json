@@ -1,0 +1,9 @@
+{
+    "name": "Better Channel Indicators",
+    "description": "Adds a nice touch to Discord's current channel indicators.",
+    "version": "1.3.0",
+    "author": "LuckFire#4800",
+    "theme": "index.scss",
+    "consent": "false",
+    "license": "MIT"
+}
