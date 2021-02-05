@@ -17,8 +17,8 @@ git clone https://github.com/LuckFire/BetterChannelIndicators
 ```
 
 **For BetterDiscord:**
-[Direct Download](https://betterdiscord.net/ghdl?id=3480)
-[View Source](https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/support/BetterChannelIndiactors.theme.css)
+- [Direct Download](https://betterdiscord.net/ghdl?id=3480)
+- [View Source](https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/support/BetterChannelIndiactors.theme.css)
 
 **For Browser / Web:**
 1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
