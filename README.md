@@ -10,6 +10,9 @@ Adds a nice touch to Discord's current channel indicators.
 
 ![Preview](./Previews/Indicators.gif)
 
+# Customization
+In order to customize the colors / roundeness, head over to `./src/_root.scss`, and you can mess with the variables to your liking. For variable information, peek the [variables section](https://github.com/LuckFire/BetterChannelIndicators#variables) of this README.
+
 # Installation
 For Powercord or Vizality installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
@@ -31,9 +34,7 @@ Since Powercord's updater is currently broken, you have to update the theme manu
 git pull
 ```
 
-# Customization
-In order to customize the colors / roundeness, head over to `./src/_root.scss`, and you can mess with the variables to your liking.
-
+# Variables
 Variables with -bg is the background of the indicator that is unread or selected.
 - unread-bg, selected-bg, hovered-bg
 
