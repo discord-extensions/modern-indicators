@@ -1,4 +1,4 @@
-[Banner Coming Soon:tm:]()
+![Banner](./assets/banner.png)
 <p align="center">
   <a href="#"><img align="center" alt="GitHub repo size" src="https://img.shields.io/github/repo-size/LuckFire/BetterChannelIndicators?color=7289DA&style=for-the-badge&logo=github">
   <a href="#"><img align ="center" alt="Version" src="https://img.shields.io/static/v1?label=version&message=1.3.0&color=7289DA&style=for-the-badge&logo=data%3Aimage/png%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHpFAACAgwAA/FcAAIDoAAB5FgAA8QEAADtfAAAcheDStWoAAAGwSURBVHja7JcxSBxBFIa/Pa%2BQECuFFClNsLWRgGJSpEgn1oJosDIcFpbWKcTC47TKHbEVzpRRsLVOtEkKG2MTxO7QECUH%2BW3mcG7ZvX1j9nLNPVjY2Xn7f/Nm5g1vIkkYbBTYB0aAtB8ioAHMAt%2ByBIvY7AUwZvAbBl5ZwAUj%2BDd2%2B2VxsoIVAFae4NytD%2B6Dew6%2BCNC8tDgVEwYyAQx4%2BSjgZQB4yh2dBe8o/Qt8BZr32S75zyd1zw59Vnyqz7u4rD/az7f2iJG02YVoq3FOEhhJ5RyhtSRGGjivyKtp%2Bp3A/xp5rZN2FhhJlQdAP2bpWsCh016zaFrBVnjVqhe5Yu8ZMAc8ilUQEXAM1F27Aqyk5OkOsOTeZ4DJBK1bYA/4jqSnkm4yIillRO5HumiYmedI%2BmBcuzS4D10watWRdBawcZY9yLobQKs97/ldS/osqeHaB5JOvf6fOKcQKyVslvj0rrnvG5Iu3PsTr/%2Bq6Bb8ccBhvw2Muw0nd3N4F/N5DXxxF4Eh4I3bbC1rRpKOgOn/XICcFIByDyqfrVYevwfeAoOBt4YQi4A/wC6wejcAIWlEHq3bJrMAAAAASUVORK5CYII%3D">
@@ -8,7 +8,7 @@
 # Better Channel Indicators
 Adds a nice touch to Discord's current channel indicators.
 
-![Preview](./Previews/Indicators.gif)
+![Preview](./assets/recording.gif)
 
 # Customization
 In order to customize the colors / roundeness, head over to `./src/_root.scss`, and you can mess with the variables to your liking. For variable information, peek the [variables section](https://github.com/LuckFire/BetterChannelIndicators#variables) of this README.
