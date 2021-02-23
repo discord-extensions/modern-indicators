@@ -29,7 +29,7 @@ git clone https://github.com/Discord-Theme-Addons/better-channel-indicators
 3. Press the "Install Style" button.
 
 # Updating for Powercord
-Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> RevampedUserArea -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
+Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> better-channel-indicators -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
 git pull
 ```
