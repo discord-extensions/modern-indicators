@@ -20,7 +20,7 @@ git clone https://github.com/Discord-Theme-Addons/modern-channel-indicators
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://betterdiscord.net/ghdl?id=3480)
+- [Direct Download](https://betterdiscord.net/ghdl?id=3564)
 - [View Source](https://raw.githack.com/Discord-Theme-Addons/modern-channel-indicators/main/src/support/ModernChannelIndiactors.theme.css)
 
 **For Browser / Web:**
