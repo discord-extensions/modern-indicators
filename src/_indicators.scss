@@ -1,72 +1,80 @@
 #app-mount {
-    // Removes Original Indiactors
-    .content-1x5b-n, 
-    .channel-2QD9_O .layout-2DM8Md {
-        background: none;
-    }
+    /* -------- BASE ---- */ 
+    /* ---- Borders -- */
+    .containerDefault--pIXnN .wrapper-2jXpOf,
+    .channel-2QD9_O {
+        border-radius: var(--indicator-rounding);
 
-    // Badges
-    .modeSelected-346R90,
-    .modeUnread-1qO3K1 {
         &::before {
             content: "";
             position: absolute;
-            height: 34px;
             top: 0;
+            left: 0;
+            bottom: 0;
         }
     }
-    .channel-2QD9_O.selected-aXhQR6::before {
-        content: "";
-        position: absolute;
-        height: 44px;
-        top: 0;
+    /* ---- Remove Default  -- */
+    .content-1x5b-n,
+    .channel-2QD9_O .layout-2DM8Md {
+        background-color: transparent;
     }
 
-    // Channel Selected
+    /* -------- CHANNEL INDICATORS ---- */ 
+    /* ---- Channel Hover -- */
+    .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId),
+    .channel-2QD9_O:not(.selected-aXhQR6) {
+        &:hover {
+            background: var(--indicator-hovered);
+        }
+    }
+
+    /* ---- Channel Selected -- */
     .modeSelected-346R90,
     .channel-2QD9_O.selected-aXhQR6 {
-        background: var(--selected-bg);
-        border-radius: var(--bg-rounding);
+        background-color: var(--indicator-selected-background);
 
         &:hover {
-            background: var(--selected-bg-hover);
+            background-color: var(--indicator-selected-hover);
         }
 
         &::before {
-            border-left: var(--border-info) var(--selected-badge);
+            border-left: var(--indicator-border-info) var(--indicator-selected-border);
         }
     }
 
-    // Channel Unread
-    .unread-2lAfLh {
-        display: none;
-    }
+    /* ---- Channel Unread -- */
     .modeUnread-1qO3K1 {
-        background: var(--unread-bg);
-        border-radius: var(--bg-rounding);
+        background: var(--indicator-unread-background);
 
         &::before {
-            border-left: var(--border-info) var(--unread-badge);
+            border-left: var(--indicator-border-info) var(--indicator-unread-border);
+        }
+
+        .unread-2lAfLh {
+            display: none;
         }
     }
 
-    // Channel Hover
-    .modeUnread-1qO3K1,
-    .wrapper-2jXpOf:not(.modeSelected-346R90),
-    .channel-2QD9_O.container-2Pjhx-:not(.selected-aXhQR6) {
+    /* ---- VC Connected -- */
+    .modeConnected-3IsKId {
+        background-color: var(--indicator-connected-background);
+
         &:hover {
-            background: var(--hovered-bg);
-            border-radius: var(--bg-rounding);
+            background-color: var(--indicator-connected-hover);
+        }
+
+        &::before {
+            border-left: var(--indicator-border-info) var(--indicator-connected-border);
         }
     }
 
-    // Fixes
-    .channel-2QD9_O.container-2Pjhx- {
+    /* ---- DM Channel Positioning -- */
+    .channel-2QD9_O {
         margin-left: 0;
-        max-width: 235px;
+        max-width: 100%;
 
         div .avatar-3uk_u9 {
-            margin-left: 5px;
+            margin-left: 8px;
         }
     }
 }

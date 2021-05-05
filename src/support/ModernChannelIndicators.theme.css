@@ -1,3 +1,15 @@
+/**
+    * @name Modern Channel Indicators
+    * @version 1.2.0
+    * @description Adds a nice touch to Discord's current channel indicators.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/Discord-Theme-Addons
+    * @source https://github.com/Discord-Theme-Addons/modern-channel-indicators/tree/main/src
+**/
+
+@import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
+
 :root {
     /* ---- base -- */
     --indicator-hovered: rgba(79, 84, 92, 0.25);
@@ -21,5 +33,3 @@
     --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
-
-@import "./src/indicators";
