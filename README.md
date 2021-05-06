@@ -12,7 +12,7 @@ git clone https://github.com/Discord-Theme-Addons/modern-channel-indicators
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://betterdiscord.net/ghdl?id=)
+- [Direct Download](https://github.com/Discord-Theme-Addons/modern-channel-indicators/releases/download/1.2.0/ModernChannelIndicators.theme.css)
 - [View Source](https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css)
 
 **For Browser / Web:**
