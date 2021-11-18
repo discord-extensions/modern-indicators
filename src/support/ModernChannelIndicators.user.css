@@ -4,7 +4,7 @@
     @description  Adds a nice touch to Discord's current channel indicators.
     @author       LuckFire#400
     @namespace    https://github.com/Discord-Theme-Addons/modern-channel-indicators
-    @version      1.2.0
+    @version      1.2.1
     ==/UserStyle== */
     
     @import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
@@ -14,20 +14,20 @@
         --indicator-hovered: rgba(79, 84, 92, 0.25);
         --indicator-rounding: 0;
         --indicator-border-info: 2px solid;
-
+    
         /* ---- selected -- */
-        --indicator-selected: 112, 135, 215;
+        --indicator-selected: 88, 101, 242;
         --indicator-selected-border: rgba(var(--indicator-selected));
         --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
         --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
-
-        /* ---- unreads -- */
+    
+        /* ---- unreads  -- */
         --indicator-unread: 255, 255, 255;
         --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
         --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
         
         /* ---- connected -- */
-        --indicator-connected: 67, 181, 129;
+        --indicator-connected: 87, 242, 135;
         --indicator-connected-border: rgba(var(--indicator-connected));
         --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
         --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);

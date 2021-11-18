@@ -30,6 +30,9 @@
 #app-mount .channel-2QD9_O.selected-aXhQR6::before {
     border-left: var(--indicator-border-info) var(--indicator-selected-border);
 }
+#app-mount .modeSelected-346R90 .icon-1DeIlz, #app-mount .modeSelected-346R90 .actionIcon-PgcMM2 {
+    color: var(--indicator-selected-border);
+}
 #app-mount .modeUnread-1qO3K1 {
     background: var(--indicator-unread-background);
 }
@@ -39,6 +42,9 @@
 #app-mount .modeUnread-1qO3K1 .unread-2lAfLh {
     display: none;
 }
+#app-mount .modeUnread-1qO3K1 .icon-1DeIlz, #app-mount .modeUnread-1qO3K1 .actionIcon-PgcMM2 {
+    color: var(--indicator-unread-border);
+}
 #app-mount .modeConnected-3IsKId {
     background-color: var(--indicator-connected-background);
 }
@@ -47,6 +53,21 @@
 }
 #app-mount .modeConnected-3IsKId::before {
     border-left: var(--indicator-border-info) var(--indicator-connected-border);
+}
+#app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe {
+    color: white;
+}
+#app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe .users-3kndPl {
+    background-color: rgba(var(--indicator-connected), 0.3);
+}
+#app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe .total-i6us2n {
+    background-color: rgba(var(--indicator-connected), 0.6);
+}
+#app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe .total-i6us2n::after {
+    border-right-color: rgba(var(--indicator-connected), 0.45);
+}
+#app-mount .modeConnected-3IsKId .icon-1DeIlz, #app-mount .modeConnected-3IsKId .actionIcon-PgcMM2 {
+    color: var(--indicator-connected-border);
 }
 #app-mount .channel-2QD9_O {
     margin-left: 0;

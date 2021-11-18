@@ -1,9 +1,9 @@
-![Banner](./assets/banner.png)
+![Banner](https://raw.githubusercontent.com/Discord-Theme-Addons/modern-channel-indicators/main/assets/banner.png)
 
 # Modern Channel Indicators
 Adds a nice touch to Discord's current channel indicators.
 
-![Preview](./screenshots/preview.png)
+![Preview](https://raw.githubusercontent.com/Discord-Theme-Addons/modern-channel-indicators/main/assets/preview.png)
 
 ## Installation
 For **[Powercord](http://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:

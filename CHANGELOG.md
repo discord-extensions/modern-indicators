@@ -1,3 +1,9 @@
+# v1.2.1
+Just a few changes, nothing too big (however, they are noticeable).
+- Colors have been adjusted to match **(Discord's branding)[https://discord.com/branding]**. You are still able to change the colors, but this change was made for consistency sake.
+- Icons now have colors depending on their indicator (parent) color.
+- Updated README assets.
+
 # v1.2.0
 Some major adjustments and enhancements.
 - Eveyrthing has been redone from scratch, which should make this loads better.

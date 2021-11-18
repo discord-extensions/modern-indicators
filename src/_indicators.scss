@@ -36,9 +36,13 @@
         &:hover {
             background-color: var(--indicator-selected-hover);
         }
-
         &::before {
             border-left: var(--indicator-border-info) var(--indicator-selected-border);
+        }
+    }
+    .modeSelected-346R90 {
+        .icon-1DeIlz, .actionIcon-PgcMM2 {
+            color: var(--indicator-selected-border);
         }
     }
 
@@ -49,11 +53,15 @@
         &::before {
             border-left: var(--indicator-border-info) var(--indicator-unread-border);
         }
-
         .unread-2lAfLh {
             display: none;
         }
+
+        .icon-1DeIlz, .actionIcon-PgcMM2 {
+            color: var(--indicator-unread-border);
+        }
     }
+
 
     /* ---- VC Connected -- */
     .modeConnected-3IsKId {
@@ -62,9 +70,27 @@
         &:hover {
             background-color: var(--indicator-connected-hover);
         }
-
         &::before {
             border-left: var(--indicator-border-info) var(--indicator-connected-border);
+        }
+
+        // user limit
+        .userLimit-3aerPX .wrapper-2tAnRe {
+            color: white;
+
+            .users-3kndPl {
+                background-color: rgba(var(--indicator-connected), 0.3);
+            }
+            .total-i6us2n {
+                background-color: rgba(var(--indicator-connected), 0.6);
+                &::after {
+                    border-right-color: rgba(var(--indicator-connected), 0.45);
+                }
+            }
+        }
+
+        .icon-1DeIlz, .actionIcon-PgcMM2 {
+            color: var(--indicator-connected-border);
         }
     }
 
