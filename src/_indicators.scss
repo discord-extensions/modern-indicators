@@ -39,9 +39,7 @@
         &::before {
             border-left: var(--indicator-border-info) var(--indicator-selected-border);
         }
-    }
-    .modeSelected-346R90 {
-        .icon-1DeIlz, .actionIcon-PgcMM2 {
+        svg {
             color: var(--indicator-selected-border);
         }
     }
