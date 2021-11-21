@@ -1,3 +1,10 @@
+# v1.3.0
+Some major changes when it comes to customization.
+- Added 2 new variables for text and icons, meaning you can change the color of those two if you want to. You'll have to redownload the theme if you want to properly use these (or at least copy-paste them into your index / theme files).
+- I've added fallback values to the variables. It'll first check for a default variable, and if it cant detect that it'll attempt to use the RGB value variable, and if neither of those are detected it'll default to a fallback RGB value variable. (can someone tell me if the way i've done this causes any performance issues?)
+
+This update messes with variables **A TON**, so to prevent yourself from running into any issues, please be sure to redownload the theme.
+
 # v1.2.2
 Icons are now colored in the direct messages list (i.e friends, library icons).
 

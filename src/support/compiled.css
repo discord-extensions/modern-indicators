@@ -1,6 +1,12 @@
+:root {
+    --fallback-selected: 88, 101, 242;
+    --fallback-unread: 255, 255, 255;
+    --fallback-connected: 87, 242, 135;
+}
+
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf,
 #app-mount .channel-2QD9_O {
-    border-radius: var(--indicator-rounding);
+    border-radius: var(--indicator-rounding, 0);
 }
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf::before,
 #app-mount .channel-2QD9_O::before {
@@ -16,64 +22,79 @@
 }
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId):hover,
 #app-mount .channel-2QD9_O:not(.selected-aXhQR6):hover {
-    background: var(--indicator-hovered);
+    background: var(--indicator-hovered, rgba(79, 84, 92, 0.25));
+}
+#app-mount .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId):hover .overflow-WK9Ogt,
+#app-mount .channel-2QD9_O:not(.selected-aXhQR6):hover .overflow-WK9Ogt {
+    color: var(--indicator-hovered-text, var(--interactive-hover));
 }
 #app-mount .modeSelected-346R90,
 #app-mount .channel-2QD9_O.selected-aXhQR6 {
-    background-color: var(--indicator-selected-background);
+    background-color: var(--indicator-selected-background, rgba(var(--indicator-selected, var(--fallback-selected)), 0.1));
 }
 #app-mount .modeSelected-346R90:hover,
 #app-mount .channel-2QD9_O.selected-aXhQR6:hover {
-    background-color: var(--indicator-selected-hover);
+    background-color: var(--indicator-selected-hover, rgba(var(--indicator-selected, var(--fallback-selected)), 0.18));
 }
 #app-mount .modeSelected-346R90::before,
 #app-mount .channel-2QD9_O.selected-aXhQR6::before {
-    border-left: var(--indicator-border-info) var(--indicator-selected-border);
+    border-left: var(--indicator-border-info, 2px solid) var(--indicator-selected-border, rgba(var(--indicator-selected, var(--fallback-selected))));
+}
+#app-mount .modeSelected-346R90 .overflow-WK9Ogt,
+#app-mount .channel-2QD9_O.selected-aXhQR6 .overflow-WK9Ogt {
+    color: var(--indicator-selected-text, white);
 }
 #app-mount .modeSelected-346R90 div > svg,
 #app-mount .channel-2QD9_O.selected-aXhQR6 div > svg {
-    color: var(--indicator-selected-border);
+    color: var(--indicator-selected-icons, rgba(var(--indicator-selected, var(--fallback-selected))));
 }
 #app-mount .modeUnread-1qO3K1 {
-    background: var(--indicator-unread-background);
+    background-color: var(--indicator-unread-background, rgba(var(--indicator-unread, var(--fallback-unread)), 0.01));
 }
 #app-mount .modeUnread-1qO3K1::before {
-    border-left: var(--indicator-border-info) var(--indicator-unread-border);
+    border-left: var(--indicator-border-info, 2px solid) var(--indicator-unread-border, rgba(var(--indicator-unread, var(--fallback-unread)), 0.6));
 }
 #app-mount .modeUnread-1qO3K1 .unread-2lAfLh {
     display: none;
 }
+#app-mount .modeUnread-1qO3K1 .overflow-WK9Ogt {
+    color: var(--indicator-unread-text, white);
+}
 #app-mount .modeUnread-1qO3K1 .icon-1DeIlz, #app-mount .modeUnread-1qO3K1 .actionIcon-PgcMM2 {
-    color: var(--indicator-unread-border);
+    color: var(--indicator-unread-icons, rgba(var(--indicator-unread, var(--fallback-unread)), 0.6));
 }
 #app-mount .modeConnected-3IsKId {
-    background-color: var(--indicator-connected-background);
+    background-color: var(--indicator-connected-background, rgba(var(--indicator-connected, var(--fallback-connected)), 0.1));
 }
 #app-mount .modeConnected-3IsKId:hover {
-    background-color: var(--indicator-connected-hover);
+    background-color: var(--indicator-connected-hover, rgba(var(--indicator-connected, var(--fallback-connected)), 0.18));
 }
 #app-mount .modeConnected-3IsKId::before {
-    border-left: var(--indicator-border-info) var(--indicator-connected-border);
+    border-left: var(--indicator-border-info, 2px solid) var(--indicator-connected-border, rgba(var(--indicator-connected, var(--fallback-connected))));
+}
+#app-mount .modeConnected-3IsKId .overflow-WK9Ogt {
+    color: var(--indicator-connected-text, white);
 }
 #app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe {
     color: white;
+    background-color: rgba(var(--indicator-connected, var(--fallback-connected)), 0.3);
 }
 #app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe .users-3kndPl {
-    background-color: rgba(var(--indicator-connected), 0.3);
+    background-color: transparent;
 }
 #app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe .total-i6us2n {
-    background-color: rgba(var(--indicator-connected), 0.6);
+    background-color: rgba(var(--indicator-connected, var(--fallback-connected)), 0.4);
 }
 #app-mount .modeConnected-3IsKId .userLimit-3aerPX .wrapper-2tAnRe .total-i6us2n::after {
-    border-right-color: rgba(var(--indicator-connected), 0.45);
+    border-right-color: rgba(var(--indicator-connected, var(--fallback-connected)), 0.4);
 }
 #app-mount .modeConnected-3IsKId .icon-1DeIlz, #app-mount .modeConnected-3IsKId .actionIcon-PgcMM2 {
-    color: var(--indicator-connected-border);
+    color: var(--indicator-connected-icons, rgba(var(--indicator-connected, var(--fallback-connected))));
 }
 #app-mount .channel-2QD9_O {
     margin-left: 0;
     max-width: 100%;
 }
-#app-mount .channel-2QD9_O div .avatar-3uk_u9 {
+#app-mount .channel-2QD9_O .avatar-3uk_u9 {
     margin-left: 8px;
 }

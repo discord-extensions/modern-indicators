@@ -12,7 +12,7 @@ git clone https://github.com/Discord-Theme-Addons/modern-channel-indicators
 ```
 
 **For BetterDiscord:**
-- DIRECT DOWNLOAD PENDING APPROVAL
+- PENDING SUBMISSION APPROVAL (FOR BD SITE)
 - [View Source](https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css)
 
 **For Browser / Web:**
