@@ -30,8 +30,8 @@
 #app-mount .channel-2QD9_O.selected-aXhQR6::before {
     border-left: var(--indicator-border-info) var(--indicator-selected-border);
 }
-#app-mount .modeSelected-346R90 svg,
-#app-mount .channel-2QD9_O.selected-aXhQR6 svg {
+#app-mount .modeSelected-346R90 div > svg,
+#app-mount .channel-2QD9_O.selected-aXhQR6 div > svg {
     color: var(--indicator-selected-border);
 }
 #app-mount .modeUnread-1qO3K1 {

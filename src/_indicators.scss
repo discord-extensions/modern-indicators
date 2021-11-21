@@ -39,7 +39,7 @@
         &::before {
             border-left: var(--indicator-border-info) var(--indicator-selected-border);
         }
-        svg {
+        div > svg {
             color: var(--indicator-selected-border);
         }
     }
