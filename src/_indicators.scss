@@ -26,12 +26,14 @@
     }
 
     /* -------- CHANNEL INDICATORS ---- */ 
-    /* ---- Channel Hover -- */
+    /* ---- Channel Hover -- */ // ill clean this up in the future, don't worry.
     .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId),
     .channel-2QD9_O:not(.selected-aXhQR6) {
         &:hover {
             background: var(--indicator-hovered, rgba(79, 84, 92, 0.25));
+        }
 
+        &:not(.modeUnread-1qO3K1):hover {
             .overflow-WK9Ogt {
                 color: var(--indicator-hovered-text, var(--interactive-hover));
             }

@@ -24,8 +24,8 @@
 #app-mount .channel-2QD9_O:not(.selected-aXhQR6):hover {
     background: var(--indicator-hovered, rgba(79, 84, 92, 0.25));
 }
-#app-mount .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId):hover .overflow-WK9Ogt,
-#app-mount .channel-2QD9_O:not(.selected-aXhQR6):hover .overflow-WK9Ogt {
+#app-mount .containerDefault--pIXnN .wrapper-2jXpOf:not(.modeSelected-346R90):not(.modeConnected-3IsKId):not(.modeUnread-1qO3K1):hover .overflow-WK9Ogt,
+#app-mount .channel-2QD9_O:not(.selected-aXhQR6):not(.modeUnread-1qO3K1):hover .overflow-WK9Ogt {
     color: var(--indicator-hovered-text, var(--interactive-hover));
 }
 #app-mount .modeSelected-346R90,
