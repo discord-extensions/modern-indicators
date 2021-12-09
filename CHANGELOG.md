@@ -1,6 +1,12 @@
-## Version 1.4.0
-- Indicators now apply on discovery pages.
-- Some minor code clean-up / changes.
+# Version 1.4.1 - 12/9/2021
+Adjustments for better light mode support, as well as remove fallback variables from the source (for now).
+
+I plan on redoing most of this sometime in the near future since- this thing is so poorly done and it's a pain to manage.
+
+<details>
+<summary><b> Version 1.4.0 </b></summary>
+
+</details>
 
 <details>
 <summary><b> Version 1.3.0 </b></summary>
