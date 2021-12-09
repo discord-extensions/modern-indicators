@@ -15,21 +15,13 @@
         --indicator-border-info: 2px solid;
         --indicator-hovered: rgba(79, 84, 92, 0.25);
         --indicator-hovered-text: var(--interactive-hover);
-
+    
         /* ---- selected -- */
         --indicator-selected: 88, 101, 242;
         --indicator-selected-border: rgba(var(--indicator-selected));
         --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
         --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
         --indicator-selected-icons: rgba(var(--indicator-selected));
-        --indicator-selected-text: white;
-
-        /* ---- unreads  -- */
-        --indicator-unread: 255, 255, 255;
-        --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
-        --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
-        --indicator-unread-icons: var(--indicator-unread-border);
-        --indicator-unread-text: white;
         
         /* ---- connected -- */
         --indicator-connected: 87, 242, 135;
@@ -37,6 +29,27 @@
         --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
         --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
         --indicator-connected-icons: var(--indicator-connected-border);
+    }
+    .theme-dark {
+        /* ---- unreads  -- */
+        --indicator-unread: 255, 255, 255;
+        --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+        --indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+        --indicator-unread-icons: var(--indicator-unread-border);
+        --indicator-unread-text: white;
+    
+        --indicator-selected-text: white;
         --indicator-connected-text: white;
+    }
+    .theme-light {
+        /* ---- unreads  -- */
+        --indicator-unread: 0, 0, 0;
+        --indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+        --indicator-unread-background: rgba(var(--indicator-unread), 0.025);
+        --indicator-unread-icons: var(--indicator-unread-border);
+        --indicator-unread-text: black;
+    
+        --indicator-selected-text: black;
+        --indicator-connected-text: black;
     }
 }
