@@ -1,11 +1,23 @@
-# Version 1.4.1 - 12/9/2021
-Adjustments for better light mode support, as well as remove fallback variables from the source (for now).
+# Version 1.5.0 - 12/10/2021
+- A better compatibility for both light and dark mode.
+- Powercord & Vizality will now use the `_theme.scss` file located in src.
+- Minor changes to code to be a bit more efficient.
+- Updated readme info.
 
-I plan on redoing most of this sometime in the near future since- this thing is so poorly done and it's a pain to manage.
+It is recommended to reinstall if you're on a version older than this one, especially if you're using BetterDiscord.
+
+<details>
+<summary><b> Version 1.4.1 - 12/9/2021 </b></summary>
+
+- Temporary adjustments for better light mode support.
+- Removal of scuffed fallback system (since I can just include the variables in the import file).
+</details>
 
 <details>
 <summary><b> Version 1.4.0 </b></summary>
 
+- Indicators now apply on discovery pages.
+- Some minor code clean-up / changes.
 </details>
 
 <details>

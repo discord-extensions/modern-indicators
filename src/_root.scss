@@ -1,15 +1,3 @@
-/**
-    * @name Modern Channel Indicators
-    * @version 1.5.0
-    * @description Adds a nice touch to Discord's current channel indicators.
-    * @author LuckFire#4800
-    *
-    * @website https://github.com/Discord-Theme-Addons
-    * @source https://github.com/Discord-Theme-Addons/modern-channel-indicators/tree/main/src
-**/
-
-@import url('https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css');
-
 /* [ THEME MODE SPECIFIC ] */
 .theme-dark {
     --indicator-selected: 88, 101, 242;
@@ -17,7 +5,6 @@
     --indicator-connected: 87, 242, 135;
     --indicator-active: white;
 }
-
 .theme-light {
     --indicator-selected: 88, 101, 242;
     --indicator-unread: 0, 0, 0;

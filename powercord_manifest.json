@@ -1,9 +1,9 @@
 {
     "name": "Modern Channel Indicators",
-    "description": "Adds a nice touch to Discord's current channel indicators.",
-    "version": "1.4.1",
+    "description": "Spice up Discord's channel indicators.",
+    "version": "1.5.0",
     "author": "LuckFire#4800",
-    "theme": "index.scss",
+    "theme": "./src/_theme.scss",
     "consent": "true",
     "license": "MIT"
 }

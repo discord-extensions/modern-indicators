@@ -1,24 +1,28 @@
 ![Banner](https://raw.githubusercontent.com/Discord-Theme-Addons/modern-channel-indicators/main/assets/banner.png)
 
 # Modern Channel Indicators
-Adds a nice touch to Discord's current channel indicators.
+Spice up Discord's channel indicators.
 
 ![Preview](https://raw.githubusercontent.com/Discord-Theme-Addons/modern-channel-indicators/main/assets/preview.png)
 
 ## Installation
-For **[Powercord](http://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
+**Powercord / Vizality**
+
+Head over to your **Themes folder -> open a terminal of choice**, and paste / enter the following:
 ```
 git clone https://github.com/Discord-Theme-Addons/modern-channel-indicators
 ```
 
-**For BetterDiscord:**
-- [Direct Download](https://betterdiscord.app/Download?id=527)
-- [View Source](https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css)
+**BetterDiscord**
 
-**For Browser / Web:**
-1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
-2. After installing, head over to [this link](https://discord-theme-addons.github.io/modern-channel-indicators/src/support/ModernChannelIndiactors.user.css).
+- **[BD Site Page](https://betterdiscord.app/theme/Modern%20Channel%20Indicators)**
+- **[Direct Download](https://betterdiscord.app/Download?id=527)**
+- **[View Source](https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css)**
+
+**Stylus**
+
+1. Make sure you have the Stylus browser extension installed.
+    - **[Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)**
+    - **[Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)**
+2. After installing, head over to **[this link](https://discord-theme-addons.github.io/modern-channel-indicators/src/support/ModernChannelIndiactors.user.css)**.
 3. Press the "Install Style" button.
-
-## Customization
-In order to change colors, all you have to mess with is `indicator-hovered, indicator-selected, indicator-unread` and `indicator-connected` inside of the root. These values are done in RGB (red, green, blue), so you can just use a simple [color picker](https://www.google.com/search?q=color+picker) off of Google.
