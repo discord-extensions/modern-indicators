@@ -1,5 +1,5 @@
 # Version 1.5.0 - 12/10/2021
-- A better compatibility for both light and dark mode.
+- Better compatibility for both light and dark mode.
 - Powercord & Vizality will now use the `_theme.scss` file located in src.
 - Minor changes to code to be a bit more efficient.
 - Updated readme info.
