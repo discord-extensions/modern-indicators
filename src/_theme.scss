@@ -3,18 +3,18 @@
 #app-mount {
    /* [ SETUP ] */
     /* [ REMOVE OLD ] */
-    .wrapper-2jXpOf .content-1x5b-n, .layout-2DM8Md {
+    .wrapper-NhbLHG .content-1gYQeQ, .layout-1qmrhw {
         background-color: transparent;
     }
     /* [ MAIN INDICATORS ] */
-    .wrapper-2jXpOf, .channel-2QD9_O, .categoryItem-ONe8JV {
+    .wrapper-NhbLHG, .channel-1Shao0, .categoryItem-Kc_HK_ {
         border-radius: var(--indicator-rounding-info);
         &::before {
             content: "";
             border-left: var(--indicator-border-info) transparent;
         }
     }
-    .containerDefault--pIXnN .wrapper-2jXpOf, .channel-2QD9_O {
+    .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0 {
         &::before {
             position: absolute;
             top: 0;
@@ -22,7 +22,7 @@
             bottom: 0;
         }
     }
-    .categoryItem-ONe8JV::before {
+    .categoryItem-Kc_HK_::before {
         position: fixed;
         margin-top: -1px;
         height: 44px;
@@ -30,8 +30,8 @@
 
    /* [ INDICATORS ] */
     /* [ HOVERED ] */
-    [class="iconVisibility-sTNpHs wrapper-2jXpOf"], .modeMuted-onO3r-, .modeUnread-1qO3K1,
-    .container-2Pjhx-.clickable-1JJAn8 {
+    [class="iconVisibility-vptxma wrapper-NhbLHG"], .modeMuted-2T4MDZ, .modeUnread-3Cxepe,
+    .container-1oeRFJ.clickable-28SzVr {
         &:hover {
             background: var(--indicator-hovered);
             div > svg {
@@ -40,7 +40,7 @@
         }
     }
     /* [ SELECTED ] */
-    .modeSelected-346R90, .channel-2QD9_O.selected-aXhQR6, .selectedCategoryItem-28UllF {
+    .modeSelected-3DmyhH, .channel-1Shao0.selected-1-Z6gm, .selectedCategoryItem-ZjqSui {
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover);
@@ -55,27 +55,27 @@
             color: var(--indicator-selected-icons);
         }
     }
-    .selectedCategoryItem-28UllF .wrappedName-26qVtL {
+    .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
         color: var(--indicator-active);
     }
     /* [ UNREAD ] */
-    .modeUnread-1qO3K1 {
+    .modeUnread-3Cxepe {
         background-color: var(--indicator-unread-background);
         &::before {
             border-left-color: var(--indicator-unread-border);
         }
-        .overflow-WK9Ogt {
+        .overflow-1wOqNV {
             color: var(--indicator-active);
         }
-        .icon-1DeIlz, .actionIcon-PgcMM2 {
-            color: var(--indicator-unread-icons);
+        .icon-2W8DHg, .actionIcon-2sw4Sl {
+            color: var(--indicator-unread-icons) !important;
         }
-        .unread-2lAfLh {
+        .unread-36eUEm {
             display: none;
         }
     }
     /* [ VOICE CONNECTED ] */
-    .modeConnected-3IsKId {
+    .modeConnected-NrO4cP {
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover);
@@ -83,34 +83,34 @@
         &::before {
             border-left-color: var(--indicator-connected-border);
         }
-        .overflow-WK9Ogt {
+        .overflow-1wOqNV {
             color: var(--indicator-active);
         }
         // user limit
-        .userLimit-3aerPX .wrapper-2tAnRe {
+        .userLimit-VbEkeM .wrapper-2fEmwW {
             color: var(--indicator-active);
             background-color: rgba(var(--indicator-connected), 0.4);
 
-            .users-3kndPl {
+            .users-2JoyGL {
                 background-color: transparent;
             }
-            .total-i6us2n {
+            .total-1c5KCN {
                 background-color: rgba(var(--indicator-connected), 0.4);
                 &::after {
                     border-right-color: rgba(var(--indicator-connected), 0.4);
                 }
             }
         }
-        .icon-1DeIlz, .actionIcon-PgcMM2 {
+        .icon-2W8DHg, .actionIcon-2sw4Sl {
             color: var(--indicator-connected-icons, rgba(var(--indicator-connected)));
         }
     }
     /* [ ADJUSTMENTS ] */
-    .channel-2QD9_O,
-    .categoryItem-ONe8JV {
+    .channel-1Shao0,
+    .categoryItem-Kc_HK_ {
         margin-left: 0;
         max-width: 100%;
-        .avatar-3uk_u9 {
+        .avatar-6qzftW {
             margin-left: 8px;
         }
     }
