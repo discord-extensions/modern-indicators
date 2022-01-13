@@ -1,10 +1,16 @@
-# Version 1.5.0 - 12/10/2021
+# Version 1.6.0 - 01/13/2022
+Fixed theme being broken due to class reroll.
+
+<details>
+<summary><b> Version 1.5.0 - 12/10/2021 </b></summary>
+
 - Better compatibility for both light and dark mode.
 - Powercord & Vizality will now use the `_theme.scss` file located in src.
 - Minor changes to code to be a bit more efficient.
 - Updated readme info.
 
 It is recommended to reinstall if you're on a version older than this one, especially if you're using BetterDiscord.
+</details>
 
 <details>
 <summary><b> Version 1.4.1 - 12/9/2021 </b></summary>
