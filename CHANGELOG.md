@@ -1,5 +1,11 @@
-# Version 1.6.0 - 01/13/2022
+# Version 1.6.1 - 01/22/2022
+- Fix for Active Threads (thanks to **[FeroshUX](https://github.com/FeroshUX)**).
+
+<details>
+<summary><b> Version 1.6.0 - 01/13/2022 </b></summary>
+
 Fixed theme being broken due to class reroll.
+</details>
 
 <details>
 <summary><b> Version 1.5.0 - 12/10/2021 </b></summary>

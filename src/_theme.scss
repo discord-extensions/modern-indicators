@@ -1,17 +1,16 @@
 @use 'root';
 
 #app-mount {
-   /* [ SETUP ] */
-    /* [ REMOVE OLD ] */
+    /* [ --BASE-- ] */
+    /* remove old indicators */
     .wrapper-NhbLHG .content-1gYQeQ, .layout-1qmrhw {
         background-color: transparent;
     }
-    /* [ MAIN INDICATORS ] */
+    /* new indicators */
     .wrapper-NhbLHG, .channel-1Shao0, .categoryItem-Kc_HK_ {
         border-radius: var(--indicator-rounding-info);
         &::before {
             content: "";
-            border-left: var(--indicator-border-info) transparent;
         }
     }
     .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0 {
@@ -27,9 +26,18 @@
         margin-top: -1px;
         height: 44px;
     }
+    /* adjustments */
+    .channel-1Shao0,
+    .categoryItem-Kc_HK_ {
+        margin-left: 0;
+        max-width: 100%;
+        .avatar-6qzftW {
+            margin-left: 8px;
+        }
+    }
 
-   /* [ INDICATORS ] */
-    /* [ HOVERED ] */
+    /* [ --COLORING-- ] */
+    /* on hover */
     [class="iconVisibility-vptxma wrapper-NhbLHG"], .modeMuted-2T4MDZ, .modeUnread-3Cxepe,
     .container-1oeRFJ.clickable-28SzVr {
         &:hover {
@@ -39,7 +47,7 @@
             }
         }
     }
-    /* [ SELECTED ] */
+    /* active / selected */
     .modeSelected-3DmyhH, .channel-1Shao0.selected-1-Z6gm, .selectedCategoryItem-ZjqSui {
         background-color: var(--indicator-selected-background);
         &:hover {
@@ -58,11 +66,11 @@
     .selectedCategoryItem-ZjqSui .wrappedName-1GzMwB {
         color: var(--indicator-active);
     }
-    /* [ UNREAD ] */
+    /* unread */
     .modeUnread-3Cxepe {
         background-color: var(--indicator-unread-background);
         &::before {
-            border-left-color: var(--indicator-unread-border);
+            border-left: var(--indicator-border-info) var(--indicator-unread-border);
         }
         .overflow-1wOqNV {
             color: var(--indicator-active);
@@ -74,17 +82,20 @@
             display: none;
         }
     }
-    /* [ VOICE CONNECTED ] */
+    /* connected to voice */
     .modeConnected-NrO4cP {
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover);
         }
         &::before {
-            border-left-color: var(--indicator-connected-border);
+            border-left: var(--indicator-border-info) var(--indicator-connected-border);
         }
         .overflow-1wOqNV {
             color: var(--indicator-active);
+        }
+        .icon-2W8DHg, .actionIcon-2sw4Sl {
+            color: var(--indicator-connected-icons, rgba(var(--indicator-connected)));
         }
         // user limit
         .userLimit-VbEkeM .wrapper-2fEmwW {
@@ -100,18 +111,6 @@
                     border-right-color: rgba(var(--indicator-connected), 0.4);
                 }
             }
-        }
-        .icon-2W8DHg, .actionIcon-2sw4Sl {
-            color: var(--indicator-connected-icons, rgba(var(--indicator-connected)));
-        }
-    }
-    /* [ ADJUSTMENTS ] */
-    .channel-1Shao0,
-    .categoryItem-Kc_HK_ {
-        margin-left: 0;
-        max-width: 100%;
-        .avatar-6qzftW {
-            margin-left: 8px;
         }
     }
 }

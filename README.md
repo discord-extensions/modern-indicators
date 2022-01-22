@@ -27,3 +27,4 @@ git clone https://github.com/LuckFire/modern-channel-indicators
 
 # Credits
 - **[slow](https://github.com/slow)** for the idea and inspiration, stemming from their **[Modern Indicators](https://github.com/slow/modern-indicators)** addon.
+- **[FeroshUX](https://github.com/FeroshUX)** for fixing the weird padding above `Active Threads`. They originally pushed a fix for **[Tachi-Cord](https://github.com/LuckFire/tachi-cord)**, so I moved that over to the main mini-theme.
