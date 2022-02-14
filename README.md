@@ -8,7 +8,7 @@ Spice up Discord's channel indicators.
 # Installation
 For **[Powercord](http://powercord.dev/) / [Vizality](https://vizality.com/)**, head over to your **Themes folder -> open a terminal of choice**, and paste / enter the following:
 ```
-git clone https://github.com/LuckFire/modern-channel-indicators
+git clone https://github.com/discord-theme-addons/modern-channel-indicators
 ```
 
 **[BetterDiscord](https://betterdiscord.app/)**

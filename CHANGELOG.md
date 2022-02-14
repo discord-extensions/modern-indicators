@@ -1,5 +1,11 @@
-# Version 1.6.1 - 01/22/2022
+# Version 1.6.2 - 02/13/2022
+- Fixed DM/Discovery.
+
+<details>
+<summary><b> Version 1.6.0 - 01/13/2022 </b></summary>
+
 - Fix for Active Threads (thanks to **[FeroshUX](https://github.com/FeroshUX)**).
+</details>
 
 <details>
 <summary><b> Version 1.6.0 - 01/13/2022 </b></summary>
