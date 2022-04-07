@@ -1,3 +1,15 @@
+/**
+    * @name Modern Indicators
+    * @version 2.0.0
+    * @description Updates Discord's indicators to feel more modern.
+    * @author LuckFire
+    *
+    * @website https://github.com/discord-extensions
+    * @source https://github.com/discord-extensions/modern-indicators
+**/
+
+@import url('https://discord-extensions.github.io/modern-indicators/support/compiled.css');
+
 .theme-light {
     --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
     --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;

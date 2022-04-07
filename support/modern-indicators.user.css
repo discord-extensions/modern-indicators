@@ -1,0 +1,32 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Modern Indicators
+    @description  Updates Discord's indicators to feel more modern.
+    @author       LuckFire
+    @namespace    https://github.com/discord-extensions/modern-indicators
+    @version      2.0.0
+    ==/UserStyle== */
+
+    @import url('https://discord-extensions.github.io/modern-indicators/support/compiled.css');
+
+    .theme-light {
+        --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
+        --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
+        --indicator-connected: 139, calc(var(--saturation-factor, 1) * 47.6%), 48.6%;
+        --indicator-hovered: hsla(var(--indicator-unread), 0.08);
+        --text-active: black;
+    }
+
+    .theme-dark {
+        --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 100%;
+        --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
+        --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 65%;
+        --indicator-hovered: hsla(var(--indicator-unread), 0.045);
+        --text-active: white;
+    }
+
+    :root {
+        --indicator-border-style: 2px solid;
+        --indicator-rounding: 0;
+    }
+}
