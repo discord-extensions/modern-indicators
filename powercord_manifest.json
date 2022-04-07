@@ -3,7 +3,7 @@
     "description": "Updates Discord's indicators to feel more modern.",
     "version": "2.0.0",
     "author": "LuckFire",
-    "theme": "./src/_index.css",
+    "theme": "./src/index.css",
     "consent": "true",
     "license": "MIT"
 }
