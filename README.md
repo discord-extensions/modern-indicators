@@ -1,18 +1,18 @@
 <img src="./assets/banner.png">
 
 # Downloads
-## [Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)
+### **[Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)**
 Head over to your **Themes folder -> open your terminal of choice -> copy-paste the following, then press enter**:
 ```
 https://github.com/discord-extensions/modern-indicators
 ```
 
-## [BetterDiscord](https://betterdiscord.app/)
+### **[BetterDiscord](https://betterdiscord.app/)**
 - [Website Page](https://betterdiscord.app/theme/Modern%20Channel%20Indicators)
 - [Direct Download](https://betterdiscord.app/Download?id=527)
 - [Source](https://discord-extensions.github.io/modern-indicators/support/compiled.css)
 
-## Stylus
+### **Stylus**
 1. Install the browser extension for your respective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
