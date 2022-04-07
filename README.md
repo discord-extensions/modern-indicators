@@ -1,9 +1,4 @@
-<center>
-    <img src="./assets/banner.png">
-</center>
-
-# Modern Indicators
-Updates Discord's indicators to feel more modern. A recreation of [localip's](https://github.com/localip) [Modern Indicators](https://github.com/discord-modifications/modern-indicators).
+<img src="./assets/banner.png">
 
 # Downloads
 ## [Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)
