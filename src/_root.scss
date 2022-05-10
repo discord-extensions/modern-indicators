@@ -1,3 +1,8 @@
+:root {
+    --indicator-border-style: 2px solid;
+    --indicator-rounding: 0;
+}
+
 .theme-light {
     --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
     --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
@@ -12,9 +17,4 @@
     --indicator-connected: 139, calc(var(--saturation-factor, 1) * 86%), 65%;
     --indicator-hovered: hsla(var(--indicator-unread), 0.045);
     --text-active: white;
-}
-
-:root {
-    --indicator-border-style: 2px solid;
-    --indicator-rounding: 0;
 }

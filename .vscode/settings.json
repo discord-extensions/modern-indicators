@@ -1,0 +1,23 @@
+{
+    "liveSassCompile.settings.formats":[
+       {
+           "format": "expanded",
+           "extensionName": ".css",
+           "savePath": null
+       }
+   ],
+
+   "liveSassCompile.settings.excludeList": [
+        "/dev.scss",
+        "/src/_root.scss"
+   ],
+
+   "liveSassCompile.settings.generateMap": false,
+   "liveSassCompile.settings.autoprefix": [
+       "defaults"
+    ]
+}
+
+// expanded
+// compressed
+// nested

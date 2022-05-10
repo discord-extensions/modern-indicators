@@ -7,7 +7,7 @@
     @version      2.0.0
     ==/UserStyle== */
 
-    @import url('https://discord-extensions.github.io/modern-indicators/support/compiled.css');
+    @import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 
     .theme-light {
         --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;

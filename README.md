@@ -8,9 +8,9 @@ https://github.com/discord-extensions/modern-indicators
 ```
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
-- [Website Page](https://betterdiscord.app/theme/Modern%20Channel%20Indicators)
-- [Direct Download](https://betterdiscord.app/Download?id=527)
-- [Source](https://discord-extensions.github.io/modern-indicators/support/compiled.css)
+<!-- - [Website Page](https://betterdiscord.app/theme/Modern%20Channel%20Indicators) -->
+- [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/download/betterdiscord/modern-indicators.theme.css)
+- [Source](https://discord-extensions.github.io/modern-indicators/src/source.css)
 
 ### **Stylus**
 1. Install the browser extension for your respective browser.
