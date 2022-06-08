@@ -3,19 +3,12 @@
        {
            "format": "expanded",
            "extensionName": ".css",
-           "savePath": null
+           "savePath": null,
+           "indentWidth": 4
        }
    ],
-
-   "liveSassCompile.settings.excludeList": [
-        "/dev.scss",
-        "/src/_root.scss"
-   ],
-
-   "liveSassCompile.settings.generateMap": false,
-   "liveSassCompile.settings.autoprefix": [
-       "defaults"
-    ]
+   
+   "liveSassCompile.settings.generateMap": false
 }
 
 // expanded

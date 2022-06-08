@@ -1,16 +1,3 @@
-/**
-    * @name Modern Indicators
-    * @description Updates Discord's indicators to feel more modern.
-    * @version 2.1.0
-    * @author LuckFire
-    *
-    * @invite vYdXbEzqDs
-    * @website https://github.com/discord-extensions
-    * @source https://github.com/discord-extensions/modern-indicators
-**/
-
-@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
-
 /* || Accent Colors
  * Accent colors use HSL to remain compatible with Discord's built in saturation accessibility feature.
  * To the bigbrains out there, I know this is unnecessary. This is just how I prefer to do things.
@@ -36,7 +23,7 @@
     --indicator-border-style: solid;
     --indicator-rounding: 0;
 
-/* || Advanced Coloring */
+    /* || Advanced Coloring */
     --item-selected-icon: hsl(var(--indicator-selected));
     --item-selected-indicator: hsl(var(--indicator-selected));
     --item-selected-background: hsla(var(--indicator-selected), 0.1);

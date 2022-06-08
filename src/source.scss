@@ -1,4 +1,4 @@
-@use 'base/variables';
+@use './abstracts/variables';
 
-@use 'components/indicators';
-@use 'components/coloring'
+@use './components/channels';
+@use './components/discovery';
