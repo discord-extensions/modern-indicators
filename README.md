@@ -21,7 +21,7 @@ git clone https://github.com/discord-extensions/modern-indicators
 # Contributors
 |<a href="https://github.com/localip"><img src="https://avatars.githubusercontent.com/u/98427312?v=4" width="90px" height="90px"></a>|<a href="https://github.com/FeroshUX"><img src="https://avatars.githubusercontent.com/u/52982404?v=4" width="90px" height="90px"></a>|
 |:-:|:-:|
-|[localip](https://github.com/FeroshUX)|[FeroshUX](https://github.com/FeroshUX)|
+|[localip](https://github.com/localip)|[FeroshUX](https://github.com/FeroshUX)|
 
 # Support Server
 If you are having any issues with the theme, feel free to join the [support server](https://discord.gg/vYdXbEzqDs), or make an issue on this repository.
