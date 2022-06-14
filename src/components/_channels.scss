@@ -1,6 +1,6 @@
 /* || Channels */
 .sidebar-1tnWFu {
-    .containerDefault-YUSmu3 {
+    .wrapper-NhbLHG {
         .content-1gYQeQ {
             margin-left: 0;
             padding-left: calc(16px - var(--indicator-border-size));
@@ -10,7 +10,10 @@
                 background-color: var(--indicator-hovered);
             }
         }
-        .modeSelected-3DmyhH .content-1gYQeQ {
+        &.typeThread-2Aqh6X .content-1gYQeQ {
+            padding-left: calc(42px - var(--indicator-border-size));
+        }
+        &.modeSelected-3DmyhH .content-1gYQeQ {
             border-color: var(--item-selected-indicator);
             background-color: var(--item-selected-background);
             &:hover {
@@ -23,7 +26,7 @@
                 color: var(--text-active);
             }
         }
-        .modeConnected-NrO4cP .content-1gYQeQ {
+        &.modeConnected-NrO4cP .content-1gYQeQ {
             border-color: var(--item-connected-indicator);
             background-color: var(--item-connected-background);
             &:hover {
@@ -36,7 +39,7 @@
                 color: var(--text-active);
             }
         }
-        .modeUnread-3Cxepe {
+        &.modeUnread-3Cxepe {
             .unread-36eUEm {
                 display: none;
             }

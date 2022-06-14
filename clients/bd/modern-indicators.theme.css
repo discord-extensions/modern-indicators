@@ -36,7 +36,7 @@
     --indicator-border-style: solid;
     --indicator-rounding: 0;
 
-/* || Advanced Coloring */
+    /* || Advanced Coloring */
     --item-selected-icon: hsl(var(--indicator-selected));
     --item-selected-indicator: hsl(var(--indicator-selected));
     --item-selected-background: hsla(var(--indicator-selected), 0.1);
