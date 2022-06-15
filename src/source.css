@@ -112,7 +112,7 @@
 .sidebar-1tnWFu .channel-1Shao0 .interactive-1vLZ_I.selected-3veCBZ:hover {
     background-color: var(--item-selected-background-hover);
 }
-.sidebar-1tnWFu .channel-1Shao0 .interactive-1vLZ_I.selected-3veCBZ svg {
+.sidebar-1tnWFu .channel-1Shao0 .interactive-1vLZ_I.selected-3veCBZ svg path {
     color: var(--item-selected-icon);
 }
 

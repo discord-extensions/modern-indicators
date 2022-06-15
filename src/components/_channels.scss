@@ -75,7 +75,7 @@
                 &:hover {
                     background-color: var(--item-selected-background-hover);
                 }
-                svg {
+                svg path {
                     color: var(--item-selected-icon);;
                 }
             }
