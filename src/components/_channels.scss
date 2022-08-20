@@ -39,22 +39,22 @@
                 color: var(--text-active);
             }
         }
-        &.modeUnread-3Cxepe {
-            .unread-36eUEm {
-                display: none;
+
+        .unread-36eUEm {
+            display: none;
+        }
+
+        .unread-36eUEm + .content-1gYQeQ {
+            border-color: var(--item-unread-indicator);
+            background-color: var(--item-unread-background);
+            &:hover {
+                background-color: var(--item-unread-background-hover);
             }
-            .content-1gYQeQ {
-                border-color: var(--item-unread-indicator);
-                background-color: var(--item-unread-background);
-                &:hover {
-                    background-color: var(--item-unread-background-hover);
-                }
-                svg {
-                    color: var(--item-unread-icon);;
-                }
-                .channelName-3KPsGw {
-                    color: var(--text-active);
-                }
+            svg {
+                color: var(--item-unread-icon);;
+            }
+            .channelName-3KPsGw {
+                color: var(--text-active);
             }
         }
     }
