@@ -1,0 +1,30 @@
+{
+  "name": "theme-template",
+  "version": "1.0.0",
+  "description": "A theme template",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "tsx scripts/build.ts",
+    "watch": "tsx scripts/build.ts --watch",
+    "bundle": "tsx scripts/bundle.ts",
+    "build-and-bundle": "pnpm run build --no-install && pnpm run bundle",
+    "lint": "prettier ./src ./scripts --check",
+    "lint:fix": "prettier ./src ./scripts --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/asar": "^3.2.1",
+    "@parcel/config-default": "^2.8.2",
+    "@parcel/core": "^2.8.2",
+    "@parcel/transformer-sass": "^2.8.2",
+    "@types/node": "^18.11.15",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1",
+    "replugged": "4.0.0-beta0.17",
+    "tsx": "^3.12.1"
+  }
+}

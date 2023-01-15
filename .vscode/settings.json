@@ -1,16 +1,4 @@
 {
-    "liveSassCompile.settings.formats":[
-       {
-           "format": "expanded",
-           "extensionName": ".css",
-           "savePath": null,
-           "indentWidth": 4
-       }
-   ],
-   
-   "liveSassCompile.settings.generateMap": false
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
-
-// expanded
-// compressed
-// nested

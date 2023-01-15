@@ -1,22 +1,23 @@
 <img src="./assets/banner.png">
 
 # Downloads
-### **[Powercord](https://powercord.dev/) & [Vizality](https://vizality.com/)**
-Head over to your **Themes folder -> open your terminal of choice -> copy-paste the following, then press enter**:
-```
-git clone https://github.com/discord-extensions/modern-indicators
-```
+### **[Replugged](https://replugged.dev/)**
+1. Download the [.asar file](https://github.com/discord-extensions/modern-indicators/releases/latest/download/dev.LuckFire.ModernIndicators.asar).
+2. Save it to your replugged themes folder.
+    - **Windows** `%appdata%/replugged`
+    - **macOS** `~/Library/Application Support/replugged`
+    - **Other** `$XDG_CONFIG_HOME/replugged` or `~/.config/replugged`
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
-- [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/download/betterdiscord/modern-indicators.theme.css)
-- [Source](https://discord-extensions.github.io/modern-indicators/src/source.css)
+- [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/latest/download/modern-indicators.theme.css)
+- [Compiled Source](https://discord-extensions.github.io/bubble-bar/src/source.css)
 
 ### **Stylus**
-1. Install the browser extension for your respective browser.
+1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-2. Once you have the browser extension, head over to [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/stylus/modern-indicators.user.css). It will open a new window to the page to install the style.
-3. Press the "Install Style" button.
+2. Once installed, open [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/stylus/modern-indicators.user.css) in a new browser tab. This opens the page where you will install this userstyle.
+3. Press the `Install Style` button.
 
 # Contributors
 |<a href="https://github.com/localip"><img src="https://avatars.githubusercontent.com/u/98427312?v=4" width="90px" height="90px"></a>|<a href="https://github.com/ferodevs"><img src="https://avatars.githubusercontent.com/u/52982404?v=4" width="90px" height="90px"></a>|

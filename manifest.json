@@ -1,9 +1,18 @@
 {
-    "name": "Modern Indicators",
-    "description": "Updates Discord's indicators to feel more modern.",
-    "version": "2.1.0",
-    "author": "LuckFire",
-    "theme": "./src/source.scss",
-    "consent": "true",
-    "license": "MIT"
+  "id": "dev.LuckFire.ModernIndicators",
+  "name": "Modern Indicators",
+  "description": "Updates Discord's indicators to feel more modern.",
+  "author": {
+    "name": "LuckFire",
+    "discordID": "399416615742996480",
+    "github": "discord-extensions"
+  },
+  "version": "2.1.0",
+  "updater": {
+    "type": "github",
+    "id": "replugged-org/theme-template"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "src/source.scss"
 }
