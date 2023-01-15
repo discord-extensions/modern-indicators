@@ -1,84 +1,84 @@
 /* || Channels */
 .sidebar-1tnWFu {
-    .wrapper-NhbLHG {
-        .content-1gYQeQ {
-            margin-left: 0;
-            padding-left: calc(16px - var(--indicator-border-size));
-            border-radius: var(--indicator-rounding);
-            border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-            &:hover {
-                background-color: var(--indicator-hovered);
-            }
-        }
-        &.typeThread-2Aqh6X .content-1gYQeQ {
-            padding-left: calc(42px - var(--indicator-border-size));
-        }
-        &.modeSelected-3DmyhH .content-1gYQeQ {
-            border-color: var(--item-selected-indicator);
-            background-color: var(--item-selected-background);
-            &:hover {
-                background-color: var(--item-selected-background-hover);
-            }
-            svg {
-                color: var(--item-selected-icon);;
-            }
-            .channelName-3KPsGw {
-                color: var(--text-active);
-            }
-        }
-        &.modeConnected-NrO4cP .content-1gYQeQ {
-            border-color: var(--item-connected-indicator);
-            background-color: var(--item-connected-background);
-            &:hover {
-                background-color: var(--item-connected-background-hover);
-            }
-            svg {
-                color: var(--item-connected-icon);;
-            }
-            .channelName-3KPsGw {
-                color: var(--text-active);
-            }
-        }
-        &.modeUnread-3Cxepe {
-            .unread-36eUEm {
-                display: none;
-            }
-            .content-1gYQeQ {
-                border-color: var(--item-unread-indicator);
-                background-color: var(--item-unread-background);
-                &:hover {
-                    background-color: var(--item-unread-background-hover);
-                }
-                svg {
-                    color: var(--item-unread-icon);;
-                }
-                .channelName-3KPsGw {
-                    color: var(--text-active);
-                }
-            }
-        }
+  .wrapper-NhbLHG {
+    .content-1gYQeQ {
+      margin-left: 0;
+      padding-left: calc(16px - var(--indicator-border-size));
+      border-radius: var(--indicator-rounding);
+      border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+      &:hover {
+        background-color: var(--indicator-hovered);
+      }
     }
-    // || Private Messages
-    .channel-1Shao0 {
-        margin-left: 0;
-        border-radius: var(--indicator-rounding);
-        .interactive-1vLZ_I {
-            width: 232px;
-            padding-left: calc(8px - var(--indicator-border-size));
-            border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-            &:hover {
-                background-color: var(--indicator-hovered);
-            }
-            &.selected-3veCBZ {
-                border-color: var(--item-selected-indicator);
-                background-color: var(--item-selected-background);
-                &:hover {
-                    background-color: var(--item-selected-background-hover);
-                }
-                svg path {
-                    color: var(--item-selected-icon);;
-                }
-            }
-        }
+    &.typeThread-2Aqh6X .content-1gYQeQ {
+      padding-left: calc(42px - var(--indicator-border-size));
     }
+    &.modeSelected-3DmyhH .content-1gYQeQ {
+      border-color: var(--item-selected-indicator);
+      background-color: var(--item-selected-background);
+      &:hover {
+        background-color: var(--item-selected-background-hover);
+      }
+      svg {
+        color: var(--item-selected-icon);
+      }
+      .channelName-3KPsGw {
+        color: var(--text-active);
+      }
+    }
+    &.modeConnected-NrO4cP .content-1gYQeQ {
+      border-color: var(--item-connected-indicator);
+      background-color: var(--item-connected-background);
+      &:hover {
+        background-color: var(--item-connected-background-hover);
+      }
+      svg {
+        color: var(--item-connected-icon);
+      }
+      .channelName-3KPsGw {
+        color: var(--text-active);
+      }
+    }
+    &.modeUnread-3Cxepe {
+      .unread-36eUEm {
+        display: none;
+      }
+      .content-1gYQeQ {
+        border-color: var(--item-unread-indicator);
+        background-color: var(--item-unread-background);
+        &:hover {
+          background-color: var(--item-unread-background-hover);
+        }
+        svg {
+          color: var(--item-unread-icon);
+        }
+        .channelName-3KPsGw {
+          color: var(--text-active);
+        }
+      }
+    }
+  }
+  // || Private Messages
+  .channel-1Shao0 {
+    margin-left: 0;
+    border-radius: var(--indicator-rounding);
+    .interactive-1vLZ_I {
+      width: 232px;
+      padding-left: calc(8px - var(--indicator-border-size));
+      border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+      &:hover {
+        background-color: var(--indicator-hovered);
+      }
+      &.selected-3veCBZ {
+        border-color: var(--item-selected-indicator);
+        background-color: var(--item-selected-background);
+        &:hover {
+          background-color: var(--item-selected-background-hover);
+        }
+        svg path {
+          color: var(--item-selected-icon);
+        }
+      }
+    }
+  }
 }
