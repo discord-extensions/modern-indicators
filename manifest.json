@@ -10,7 +10,7 @@
   "version": "2.1.0",
   "updater": {
     "type": "github",
-    "id": "replugged-org/theme-template"
+    "id": "discord-extensions/modern-indicators"
   },
   "license": "MIT",
   "type": "replugged-theme",
