@@ -10,7 +10,7 @@
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
 - [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/latest/download/modern-indicators.theme.css)
-- [Compiled Source](https://discord-extensions.github.io/bubble-bar/src/source.css)
+- [Compiled Source](https://discord-extensions.github.io/modern-indicators/src/source.css)
 
 ### **Stylus**
 1. Install the broswer extensions for your repsective browser.
