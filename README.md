@@ -2,11 +2,7 @@
 
 # Downloads
 ### **[Replugged](https://replugged.dev/)**
-1. Download the [.asar file](https://github.com/discord-extensions/modern-indicators/releases/latest/download/dev.LuckFire.ModernIndicators.asar).
-2. Save it to your replugged themes folder.
-    - **Windows** `%appdata%/replugged`
-    - **macOS** `~/Library/Application Support/replugged`
-    - **Other** `$XDG_CONFIG_HOME/replugged` or `~/.config/replugged`
+- [Direct Install](https://replugged.dev/install?identifier=discord-extensions/modern-indicators&source=github)
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
 - [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/latest/download/modern-indicators.theme.css)
