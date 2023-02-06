@@ -6,25 +6,20 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "build": "tsx scripts/build.ts",
-    "watch": "tsx scripts/build.ts --watch",
-    "bundle": "tsx scripts/bundle.ts",
-    "build-and-bundle": "pnpm run build --no-install && pnpm run bundle",
-    "lint": "prettier ./src ./scripts --check",
-    "lint:fix": "prettier ./src ./scripts --write"
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@electron/asar": "^3.2.1",
-    "@parcel/config-default": "^2.8.2",
-    "@parcel/core": "^2.8.2",
-    "@parcel/transformer-sass": "^2.8.2",
+    "@parcel/config-default": "^2.8.3",
+    "@parcel/core": "^2.8.3",
     "@types/node": "^18.11.15",
-    "parcel": "^2.8.2",
     "prettier": "^2.8.1",
-    "replugged": "4.0.0-beta0.17",
-    "tsx": "^3.12.1"
+    "replugged": "4.0.0-beta0.25"
   }
 }
