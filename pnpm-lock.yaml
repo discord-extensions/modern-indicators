@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@parcel/config-default': ^2.8.3
   '@parcel/core': ^2.8.3
+  '@parcel/transformer-sass': ^2.8.3
   '@types/node': ^18.11.15
   prettier: ^2.8.1
   replugged: 4.0.0-beta0.25
@@ -10,6 +11,7 @@ specifiers:
 devDependencies:
   '@parcel/config-default': 2.8.3_@parcel+core@2.8.3
   '@parcel/core': 2.8.3
+  '@parcel/transformer-sass': 2.8.3_@parcel+core@2.8.3
   '@types/node': 18.11.15
   prettier: 2.8.1
   replugged: 4.0.0-beta0.25
