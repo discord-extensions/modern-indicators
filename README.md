@@ -2,7 +2,7 @@
 
 # Downloads
 ### **[Replugged](https://replugged.dev/)**
-- [Direct Install](https://replugged.dev/install?identifier=discord-extensions/modern-indicators&source=github)
+- [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.ModernIndicators)
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
 - [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/latest/download/modern-indicators.theme.css)

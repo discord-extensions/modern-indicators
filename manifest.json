@@ -7,10 +7,10 @@
     "discordID": "399416615742996480",
     "github": "discord-extensions"
   },
-  "version": "2.1.3",
+  "version": "2.1.4",
   "updater": {
-    "type": "github",
-    "id": "discord-extensions/modern-indicators"
+    "type": "store",
+    "id": "dev.LuckFire.ModernIndicators"
   },
   "license": "MIT",
   "type": "replugged-theme",

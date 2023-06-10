@@ -1,9 +1,0 @@
-{
-    "name": "Modern Indicators",
-    "description": "Updates Discord's indicators to feel more modern.",
-    "version": "2.1.0",
-    "author": "LuckFire",
-    "theme": "./src/source.scss",
-    "consent": "true",
-    "license": "MIT"
-}
