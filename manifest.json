@@ -7,7 +7,7 @@
     "discordID": "399416615742996480",
     "github": "discord-extensions"
   },
-  "version": "2.1.4",
+  "version": "2.1.5",
   "updater": {
     "type": "store",
     "id": "dev.LuckFire.ModernIndicators"
