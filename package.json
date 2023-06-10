@@ -3,7 +3,7 @@
   "version": "2.1.4",
   "description": "A theme template",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "scripts": {
     "build": "replugged build theme",
