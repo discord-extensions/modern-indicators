@@ -15,11 +15,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@parcel/config-default": "^2.9.2",
-    "@parcel/core": "^2.9.2",
-    "@parcel/transformer-sass": "^2.9.2",
-    "@types/node": "^18.16.17",
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "@types/node": "^18.17.14",
     "prettier": "^2.8.8",
-    "replugged": "^4.6.0"
+    "replugged": "^4.6.1"
   }
 }
