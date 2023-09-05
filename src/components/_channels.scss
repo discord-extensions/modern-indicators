@@ -40,6 +40,19 @@
       .name-28HaxV {
         color: var(--text-active);
       }
+      .wrapper-2fEmwW {
+        color: var(--text-active);
+        background-color: var(--item-connected-background-hover);
+        .users-2JoyGL {
+          background-color: unset;
+        }
+        .total-1c5KCN {
+          background-color: var(--item-connected-background-hover);
+          &::after {
+            border-right-color: var(--item-connected-background-hover);
+          }
+        }
+      }
     }
     &.modeUnread-3Cxepe {
       .unread-36eUEm {
