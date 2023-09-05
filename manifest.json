@@ -7,12 +7,14 @@
     "discordID": "399416615742996480",
     "github": "discord-extensions"
   },
-  "version": "2.1.5",
+  "version": "2.1.6",
   "updater": {
     "type": "store",
     "id": "dev.LuckFire.ModernIndicators"
   },
   "license": "MIT",
   "type": "replugged-theme",
-  "main": "src/source.scss"
+  "main": "src/source.scss",
+  "source": "https://github.com/MiniDiscordThemes/modern-indicators",
+  "image": "https://cdn.discordapp.com/attachments/1142305515439923260/1142321144666525696/banner.png"
 }
