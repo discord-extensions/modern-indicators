@@ -1,8 +1,8 @@
 /* || Channels */
 .sidebar-1tnWFu {
   .wrapper-NhbLHG {
-    .content-1gYQeQ {
-      margin-left: 0;
+    margin-left: 0;
+    .link-1_kTxV {
       padding-left: calc(16px - var(--indicator-border-size));
       border-radius: var(--indicator-rounding);
       border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
@@ -10,10 +10,12 @@
         background-color: var(--indicator-hovered);
       }
     }
-    &.typeThread-2Aqh6X .content-1gYQeQ {
-      padding-left: calc(42px - var(--indicator-border-size));
+    &.typeThread-2Aqh6X {
+      .link-1_kTxV {
+        padding-left: calc(42px - var(--indicator-border-size));
+      }
     }
-    &.modeSelected-3DmyhH .content-1gYQeQ {
+    &.modeSelected-3DmyhH .link-1_kTxV {
       border-color: var(--item-selected-indicator);
       background-color: var(--item-selected-background);
       &:hover {
@@ -22,11 +24,11 @@
       svg {
         color: var(--item-selected-icon);
       }
-      .channelName-3KPsGw {
+      .name-28HaxV {
         color: var(--text-active);
       }
     }
-    &.modeConnected-NrO4cP .content-1gYQeQ {
+    &.modeConnected-NrO4cP .link-1_kTxV {
       border-color: var(--item-connected-indicator);
       background-color: var(--item-connected-background);
       &:hover {
@@ -35,7 +37,7 @@
       svg {
         color: var(--item-connected-icon);
       }
-      .channelName-3KPsGw {
+      .name-28HaxV {
         color: var(--text-active);
       }
     }
@@ -43,7 +45,7 @@
       .unread-36eUEm {
         display: none;
       }
-      .content-1gYQeQ {
+      .link-1_kTxV {
         border-color: var(--item-unread-indicator);
         background-color: var(--item-unread-background);
         &:hover {
@@ -52,7 +54,7 @@
         svg {
           color: var(--item-unread-icon);
         }
-        .channelName-3KPsGw {
+        .name-28HaxV {
           color: var(--text-active);
         }
       }
@@ -62,14 +64,14 @@
   .channel-1Shao0 {
     margin-left: 0;
     border-radius: var(--indicator-rounding);
-    .interactive-1vLZ_I {
+    .interactive-iyXY_x {
       width: 232px;
       padding-left: calc(8px - var(--indicator-border-size));
       border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
       &:hover {
         background-color: var(--indicator-hovered);
       }
-      &.selected-3veCBZ {
+      &.selected-26oxtA {
         border-color: var(--item-selected-indicator);
         background-color: var(--item-selected-background);
         &:hover {
