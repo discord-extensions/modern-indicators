@@ -6,20 +6,6 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "build": "replugged build theme",
-    "watch": "replugged build theme --watch",
-    "bundle": "replugged bundle theme",
-    "lint": "prettier ./src --check",
-    "lint:fix": "prettier ./src --write",
-    "release": "replugged release"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "@parcel/config-default": "^2.9.3",
-    "@parcel/core": "^2.9.3",
-    "@parcel/transformer-sass": "^2.9.3",
-    "@types/node": "^18.17.14",
-    "prettier": "^2.8.8",
-    "replugged": "^4.6.1"
-  }
+  "license": "MIT"
 }

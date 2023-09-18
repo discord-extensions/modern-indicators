@@ -2,6 +2,7 @@
 
 # Downloads
 ### **[Replugged](https://replugged.dev/)**
+- [Maintained by Saltssaumure](https://github.com/MiniDiscordThemes/modern-indicators) -- please report Replugged issues to them!
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.ModernIndicators)
 
 ### **[BetterDiscord](https://betterdiscord.app/)**
