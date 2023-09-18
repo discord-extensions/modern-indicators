@@ -10,6 +10,14 @@
 - [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/latest/download/modern-indicators.theme.css)
 - [Compiled Source](https://discord-extensions.github.io/modern-indicators/src/source.css)
 
+### ![vencord](https://discord-extensions.github.io/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
+1. Go to user settings (CTRL + ,)
+2. Go to the "Vencord" category and select the "Themes" tab.
+3. In the input field under "THEMES" paste the following URL.
+```
+https://discord-extensions.github.io/modern-indicators/src/source.css
+```
+
 ### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
 > **Warning**
 > Firefox users must have "Patch CSP to allow style assets" enabled for the theme to work. This can be found in Stylus' settings under "Advanced"
