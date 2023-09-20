@@ -2,7 +2,7 @@
 const baseAuthor = {
     name: 'Modern Indicators',
     author: 'LuckFire',
-    version: '2.2.1',
+    version: '2.2.2',
     description: 'Updates Discord\'s indicators to feel more modern.'
 }
 

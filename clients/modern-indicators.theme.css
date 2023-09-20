@@ -1,7 +1,7 @@
 /**
  * @name Modern Indicators
  * @author LuckFire
- * @version 2.2.1
+ * @version 2.2.2
  * @description Updates Discord's indicators to feel more modern.
  * @source https://github.com/discord-extensions/modern-indicators
  * @invite vYdXbEzqDs
@@ -149,7 +149,7 @@
 .channel-1Shao0:has(.selected-26oxtA):hover {
   background-color: var(--indicator-selected-hover-background);
 }
-.channel-1Shao0:has(.selected-26oxtA) .closeButton-mupH76 svg {
+.channel-1Shao0:has(.selected-26oxtA) .linkButtonIcon-7rsZcu, .channel-1Shao0:has(.selected-26oxtA) .closeButton-mupH76 {
   color: var(--indicator-selected-border);
 }
 .channel-1Shao0:has(.highlighted-Q8Nll-) {
@@ -159,7 +159,7 @@
 .channel-1Shao0:has(.highlighted-Q8Nll-):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.channel-1Shao0:has(.highlighted-Q8Nll-) .closeButton-mupH76 svg {
+.channel-1Shao0:has(.highlighted-Q8Nll-) .linkButtonIcon-7rsZcu, .channel-1Shao0:has(.highlighted-Q8Nll-) .closeButton-mupH76 {
   color: var(--indicator-unread-border);
 }
 .channel-1Shao0 .interactive-26HRN_ {
