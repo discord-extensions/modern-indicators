@@ -23,7 +23,7 @@ https://discord-extensions.github.io/modern-indicators/src/source.css
 2. Once installed, open [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/stylus/modern-indicators.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
 ---
-## Customization
+### Customization
 You can add the variables below into your Quick CSS and modify the basic colors. Please use HSL values.
 ```css
 :root {
