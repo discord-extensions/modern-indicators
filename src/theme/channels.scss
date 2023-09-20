@@ -5,10 +5,13 @@
     .link-1_kTxV {
         background: transparent !important;
     }
+    &.wrapper-NhbLHG {
+        padding-left: 8px;
+    }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(.modeSelected-3DmyhH) {
+    &.wrapper-NhbLHG.modeSelected-3DmyhH, &:has(.modeSelected-3DmyhH) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {

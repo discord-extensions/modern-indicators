@@ -1,7 +1,7 @@
 /**
  * @name Modern Indicators
  * @author LuckFire
- * @version 2.2.0
+ * @version 2.2.1
  * @description Updates Discord's indicators to feel more modern.
  * @source https://github.com/discord-extensions/modern-indicators
  * @invite vYdXbEzqDs
@@ -54,17 +54,20 @@
 .containerDefault-YUSmu3 .link-1_kTxV {
   background: transparent !important;
 }
+.containerDefault-YUSmu3.wrapper-NhbLHG {
+  padding-left: 8px;
+}
 .containerDefault-YUSmu3:hover {
   background-color: var(--indicator-hover);
 }
-.containerDefault-YUSmu3:has(.modeSelected-3DmyhH) {
+.containerDefault-YUSmu3.wrapper-NhbLHG.modeSelected-3DmyhH, .containerDefault-YUSmu3:has(.modeSelected-3DmyhH) {
   border-left-color: var(--indicator-selected-border);
   background-color: var(--indicator-selected-background);
 }
-.containerDefault-YUSmu3:has(.modeSelected-3DmyhH):hover {
+.containerDefault-YUSmu3.wrapper-NhbLHG.modeSelected-3DmyhH:hover, .containerDefault-YUSmu3:has(.modeSelected-3DmyhH):hover {
   background-color: var(--indicator-selected-hover-background);
 }
-.containerDefault-YUSmu3:has(.modeSelected-3DmyhH) .link-1_kTxV svg {
+.containerDefault-YUSmu3.wrapper-NhbLHG.modeSelected-3DmyhH .link-1_kTxV svg, .containerDefault-YUSmu3:has(.modeSelected-3DmyhH) .link-1_kTxV svg {
   color: var(--indicator-selected-border);
 }
 .containerDefault-YUSmu3:has(.modeUnread-3Cxepe) {
