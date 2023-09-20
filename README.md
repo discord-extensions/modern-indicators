@@ -20,7 +20,7 @@ https://discord-extensions.github.io/modern-indicators/src/source.css
 1. Install the broswer extensions for your repsective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-2. Once installed, open [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/stylus/modern-indicators.user.css) in a new browser tab. This opens the page where you will install this userstyle.
+2. Once installed, open [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/modern-indicators.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
 ---
 ### Customization
