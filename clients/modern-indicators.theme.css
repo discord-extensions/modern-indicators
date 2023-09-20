@@ -1,3 +1,15 @@
+/**
+ * @name Modern Indicators
+ * @author LuckFire
+ * @version 2.2.0
+ * @description Updates Discord's indicators to feel more modern.
+ * @source https://github.com/discord-extensions/modern-indicators
+ * @invite vYdXbEzqDs
+ * @authorId 399416615742996480
+*/
+
+@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
+
 :root {
   --indicator-border-size: 2px;
   --indicator-border-style: solid;

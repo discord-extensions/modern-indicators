@@ -1,10 +1,6 @@
-<!-- <img src="./assets/banner.png"> needs to be updated -->
-
----
-
 ### ![replugged](https://discord-extensions.github.io/assets/icons/replugged.png) **[Replugged](https://replugged.dev)**
-- [Maintained by Saltssaumure](https://github.com/MiniDiscordThemes/modern-indicators) -- please report Replugged issues to them!
 - [Direct Install](https://replugged.dev/install?identifier=dev.LuckFire.ModernIndicators)
+- [Maintained by Saltssaumure](https://github.com/MiniDiscordThemes/modern-indicators) -- please report Replugged issues to them!
 
 ### ![betterdiscord](https://discord-extensions.github.io/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
 - [Direct Download](https://github.com/discord-extensions/modern-indicators/releases/latest/download/modern-indicators.theme.css)
@@ -26,7 +22,30 @@ https://discord-extensions.github.io/modern-indicators/src/source.css
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 2. Once installed, open [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/stylus/modern-indicators.user.css) in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
+---
+## Customization
+You can add the variables below into your Quick CSS and modify the basic colors. Please use HSL values.
+```css
+:root {
+    --indicator-border-size: 2px;
+    --indicator-border-style: solid;
+    --indicator-rounding: 0;
+}
 
+.theme-light {
+    --indicator-unread: var(--primary-900-hsl);
+    --indicator-unread-mention: var(--red-430-hsl);
+    --indicator-selected: var(--brand-500-hsl);
+    --indicator-connected: var(--green-430-hsl);
+}
+
+.theme-dark {
+    --indicator-unread: var(--primary-130-hsl);
+    --indicator-unread-mention: var(--red-400-hsl);
+    --indicator-selected: var(--brand-500-hsl);
+    --indicator-connected: var(--green-230-hsl);
+}
+```
 ---
 ### Licensing
 This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rigths and limitations.

@@ -1,0 +1,24 @@
+.categoryItem-Kc_HK_ {
+    margin: 2px 0;
+    padding-left: 8px;
+    border-radius: var(--indicator-rounding);
+    border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
+    &:hover {
+        background-color: var(--indicator-hover);
+        .itemInner-3e_4G4 {
+            background-color: transparent;
+        }
+    }
+    &.selected-1-Z6gm {
+        border-left-color: var(--indicator-selected-border);
+        color: var(--interactive-active);
+        background-color: var(--indicator-selected-background);
+        .itemInner-3e_4G4 {
+            background-color: transparent;
+        }
+
+        svg {
+            color: var(--indicator-selected-border);
+        }
+    }
+}
