@@ -10,6 +10,6 @@
     "build": "bd-scss build"
   },
   "dependencies": {
-    "theme-scss": "^2.1.0"
+    "theme-scss": "^2.2.0"
   }
 }

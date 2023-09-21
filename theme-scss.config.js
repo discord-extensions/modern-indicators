@@ -2,7 +2,7 @@
 const baseAuthor = {
     name: 'Modern Indicators',
     author: 'LuckFire',
-    version: '2.2.2',
+    version: '2.2.3',
     description: 'Updates Discord\'s indicators to feel more modern.'
 }
 
@@ -17,7 +17,8 @@ export default {
         ...baseAuthor,
         source: 'https://github.com/discord-extensions/modern-indicators',
         invite: 'vYdXbEzqDs',
-        authorId: '399416615742996480'
+        authorId: '399416615742996480',
+        updateUrl: 'https://discord-extensions.github.io/modern-indicators/clients/modern-indicators.theme.css'
     },
     base: {
         target: 'src/source.scss',
