@@ -1,15 +1,12 @@
 {
   "name": "modern-indicators",
-  "version": "2.2.0",
-  "description": "",
+  "version": "2.2.4",
+  "description": "Updates Discord's indicators to feel more modern.",
   "type": "module",
   "author": "LuckFire",
   "license": "MIT",
   "scripts": {
-    "dev": "bd-scss dev",
-    "build": "bd-scss build"
-  },
-  "dependencies": {
-    "theme-scss": "^2.2.0"
+    "dev": "theme-scss dev",
+    "build": "theme-scss build"
   }
 }
