@@ -1,22 +1,21 @@
-.categoryItem-Kc_HK_ {
+.categoryItem_b1be5c {
     margin: 2px 0;
     padding-left: 8px;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
     &:hover {
         background-color: var(--indicator-hover);
-        .itemInner-3e_4G4 {
+        .itemInner__9e755 {
             background-color: transparent;
         }
     }
-    &.selected-1-Z6gm {
+    &.selected__9800b {
         border-left-color: var(--indicator-selected-border);
         color: var(--interactive-active);
         background-color: var(--indicator-selected-background);
-        .itemInner-3e_4G4 {
+        .itemInner__9e755 {
             background-color: transparent;
         }
-
         svg {
             color: var(--indicator-selected-border);
         }

@@ -1,19 +1,16 @@
 {
+    "name": "Modern Indicators",
     "import": "https://discord-extensions.github.io/modern-indicators/src/source.css",
-    "meta": {
-        "name": "Modern Indicators",
-        "betterdiscord": {
-            "invite": "vYdXbEzqDs",
-            "authorId": "399416615742996480",
-            "source": "https://github.com/discord-extensions/modern-indicators",
-            "updateUrl": "https://discord-extensions.github.io/modern-indicators/clients/modern-indicators.theme.css"
-        },
-        "userstyle": {
-            "namespace": "https://github.com/discord-extensions/modern-indicators",
-            "license": "MIT"
+    "metas": {
+        "betterdiscord": "clients/metas/betterdiscord.json",
+        "userstyle": "clients/metas/userstyle.json"
+    },
+    "dist": {
+        "clients": {
+            "compileFor": ["betterdiscord", "userstyle"]
         }
     },
     "dev": {
-        "mode": "vencord"
+        "mod": "vencord"
     }
 }

@@ -1,58 +1,57 @@
-.containerDefault-YUSmu3,
-.containerDragBefore-1s5Qg6,
-.containerDragAfter-3aBiOW {
+.containerDefault__3187b,
+.containerDragBefore_fe91aa {
     margin: 2px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-    .link-1_kTxV {
+    .link__95dc0 {
         background: transparent !important;
     }
-    &.wrapper-NhbLHG {
+    &.wrapper__7bcde {
         padding-left: 8px;
     }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &.wrapper-NhbLHG.modeSelected-3DmyhH, &:has(.modeSelected-3DmyhH) {
+    &:has(.modeSelected__487d6) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        .link-1_kTxV svg {
+        .link__95dc0 svg {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(.modeUnread-3Cxepe) {
+    &:has(.modeUnread_f74c03) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        .unreadRelevant-2f-VSK {
+        .unreadRelevant__44f9e {
             display: none;
         }
-        .link-1_kTxV svg {
+        .link__95dc0 svg {
             color: var(--indicator-unread-border) ;
         }
     }
-    &:has(.mentionsBadge-3H1BKJ) {
+    &:has(.mentionsBadge_c2f85b) {
         border-left-color: var(--indicator-unread-mention-border);
         background-color: var(--indicator-unread-mention-background);
         &:hover {
             background-color: var(--indicator-unread-mention-hover-background);
         }
-        .link-1_kTxV svg {
+        .link__95dc0 svg {
             color: var(--indicator-unread-mention-border) ;
         }
     }
-    &:has(.modeConnected-NrO4cP) {
+    &:has(.modeConnected__1c02e) {
         border-left-color: var(--indicator-connected-border);
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover-background);
         }
-        .link-1_kTxV svg {
+        .link__95dc0 svg {
             color: var(--indicator-connected-border) ;
         }
     }
