@@ -65,21 +65,21 @@
 .containerDragBefore_fe91aa:has(.modeSelected__487d6) .link__95dc0 svg {
   color: var(--indicator-selected-border);
 }
-.containerDefault__3187b:has(.modeUnread_f74c03),
-.containerDragBefore_fe91aa:has(.modeUnread_f74c03) {
+.containerDefault__3187b:has(.modeUnreadImportant_efb53e),
+.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.containerDefault__3187b:has(.modeUnread_f74c03):hover,
-.containerDragBefore_fe91aa:has(.modeUnread_f74c03):hover {
+.containerDefault__3187b:has(.modeUnreadImportant_efb53e):hover,
+.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.containerDefault__3187b:has(.modeUnread_f74c03) .unreadRelevant__44f9e,
-.containerDragBefore_fe91aa:has(.modeUnread_f74c03) .unreadRelevant__44f9e {
+.containerDefault__3187b:has(.modeUnreadImportant_efb53e) .unread__48cf4,
+.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e) .unread__48cf4 {
   display: none;
 }
-.containerDefault__3187b:has(.modeUnread_f74c03) .link__95dc0 svg,
-.containerDragBefore_fe91aa:has(.modeUnread_f74c03) .link__95dc0 svg {
+.containerDefault__3187b:has(.modeUnreadImportant_efb53e) .link__95dc0 svg,
+.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e) .link__95dc0 svg {
   color: var(--indicator-unread-border);
 }
 .containerDefault__3187b:has(.mentionsBadge_c2f85b),

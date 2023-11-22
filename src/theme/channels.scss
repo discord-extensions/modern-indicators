@@ -22,13 +22,13 @@
             color: var(--indicator-selected-border);
         }
     }
-    &:has(.modeUnread_f74c03) {
+    &:has(.modeUnreadImportant_efb53e) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        .unreadRelevant__44f9e {
+        .unread__48cf4 {
             display: none;
         }
         .link__95dc0 svg {
