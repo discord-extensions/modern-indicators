@@ -1,28 +1,28 @@
-.containerDefault__3187b,
-.containerDragBefore_fe91aa {
+.containerDefault_ae2ea4,
+.containerDragBefore__257b9 {
     margin: 2px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-    .link__95dc0 {
+    .link_ddbb36 {
         background: transparent !important;
     }
-    &.wrapper__7bcde {
+    &.wrapper__612a5 {
         padding-left: 8px;
     }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(.modeSelected__487d6) {
+    &:has(.modeSelected__473f1) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        .link__95dc0 svg {
+        .link_ddbb36 svg {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(.modeUnreadImportant_efb53e) {
+    &:has(.modeUnreadImportant__35358) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
@@ -31,32 +31,32 @@
         .unread__48cf4 {
             display: none;
         }
-        .link__95dc0 svg {
+        .link_ddbb36 svg {
             color: var(--indicator-unread-border) ;
         }
     }
-    &:has(.mentionsBadge_c2f85b) {
+    &:has(.mentionsBadge__3d019) {
         border-left-color: var(--indicator-unread-mention-border);
         background-color: var(--indicator-unread-mention-background);
         &:hover {
             background-color: var(--indicator-unread-mention-hover-background);
         }
-        .link__95dc0 svg {
+        .link_ddbb36 svg {
             color: var(--indicator-unread-mention-border) ;
         }
     }
-    &:has(.modeConnected__1c02e) {
+    &:has(.modeConnected__52a8f) {
         border-left-color: var(--indicator-connected-border);
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover-background);
         }
-        .link__95dc0 svg {
+        .link_ddbb36 svg {
             color: var(--indicator-connected-border) ;
         }
     }
 }
 
-.container-1Bj0eq .spineBorder-1-F4s1 {
+.container__342a0 .spineBorder__52981 {
     left: 24px;
 }
