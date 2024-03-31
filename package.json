@@ -9,7 +9,7 @@
     "dev": "theme-scss dev",
     "build": "theme-scss build"
   },
-  "dependencies": {
+  "devDependencies": {
     "theme-scss": "^1.1.4"
   }
 }
