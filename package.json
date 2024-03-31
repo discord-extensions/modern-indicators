@@ -7,7 +7,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "theme-scss dev",
-    "build": "theme-scss build"
+    "build": "theme-scss build",
+    "bump:patch": "pnpm version --commit-hooks false --git-tag-version false patch",
+    "bump:minor": "pnpm version --commit-hooks false --git-tag-version false minor",
+    "bump:major": "pnpm version --commit-hooks false --git-tag-version false major"
   },
   "devDependencies": {
     "theme-scss": "^1.1.4"
