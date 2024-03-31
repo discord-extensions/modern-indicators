@@ -34,139 +34,139 @@
   --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
 }
 
-.containerDefault__3187b,
-.containerDragBefore_fe91aa {
+.containerDefault_ae2ea4,
+.containerDragBefore__257b9 {
   margin: 2px 0;
   border-radius: var(--indicator-rounding);
   border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 }
-.containerDefault__3187b .link__95dc0,
-.containerDragBefore_fe91aa .link__95dc0 {
+.containerDefault_ae2ea4 .link_ddbb36,
+.containerDragBefore__257b9 .link_ddbb36 {
   background: transparent !important;
 }
-.containerDefault__3187b.wrapper__7bcde,
-.containerDragBefore_fe91aa.wrapper__7bcde {
+.containerDefault_ae2ea4.wrapper__612a5,
+.containerDragBefore__257b9.wrapper__612a5 {
   padding-left: 8px;
 }
-.containerDefault__3187b:hover,
-.containerDragBefore_fe91aa:hover {
+.containerDefault_ae2ea4:hover,
+.containerDragBefore__257b9:hover {
   background-color: var(--indicator-hover);
 }
-.containerDefault__3187b:has(.modeSelected__487d6),
-.containerDragBefore_fe91aa:has(.modeSelected__487d6) {
+.containerDefault_ae2ea4:has(.modeSelected__473f1),
+.containerDragBefore__257b9:has(.modeSelected__473f1) {
   border-left-color: var(--indicator-selected-border);
   background-color: var(--indicator-selected-background);
 }
-.containerDefault__3187b:has(.modeSelected__487d6):hover,
-.containerDragBefore_fe91aa:has(.modeSelected__487d6):hover {
+.containerDefault_ae2ea4:has(.modeSelected__473f1):hover,
+.containerDragBefore__257b9:has(.modeSelected__473f1):hover {
   background-color: var(--indicator-selected-hover-background);
 }
-.containerDefault__3187b:has(.modeSelected__487d6) .link__95dc0 svg,
-.containerDragBefore_fe91aa:has(.modeSelected__487d6) .link__95dc0 svg {
+.containerDefault_ae2ea4:has(.modeSelected__473f1) .link_ddbb36 svg,
+.containerDragBefore__257b9:has(.modeSelected__473f1) .link_ddbb36 svg {
   color: var(--indicator-selected-border);
 }
-.containerDefault__3187b:has(.modeUnreadImportant_efb53e),
-.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e) {
+.containerDefault_ae2ea4:has(.modeUnreadImportant__35358),
+.containerDragBefore__257b9:has(.modeUnreadImportant__35358) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.containerDefault__3187b:has(.modeUnreadImportant_efb53e):hover,
-.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e):hover {
+.containerDefault_ae2ea4:has(.modeUnreadImportant__35358):hover,
+.containerDragBefore__257b9:has(.modeUnreadImportant__35358):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.containerDefault__3187b:has(.modeUnreadImportant_efb53e) .unread__48cf4,
-.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e) .unread__48cf4 {
+.containerDefault_ae2ea4:has(.modeUnreadImportant__35358) .unread__48cf4,
+.containerDragBefore__257b9:has(.modeUnreadImportant__35358) .unread__48cf4 {
   display: none;
 }
-.containerDefault__3187b:has(.modeUnreadImportant_efb53e) .link__95dc0 svg,
-.containerDragBefore_fe91aa:has(.modeUnreadImportant_efb53e) .link__95dc0 svg {
+.containerDefault_ae2ea4:has(.modeUnreadImportant__35358) .link_ddbb36 svg,
+.containerDragBefore__257b9:has(.modeUnreadImportant__35358) .link_ddbb36 svg {
   color: var(--indicator-unread-border);
 }
-.containerDefault__3187b:has(.mentionsBadge_c2f85b),
-.containerDragBefore_fe91aa:has(.mentionsBadge_c2f85b) {
+.containerDefault_ae2ea4:has(.mentionsBadge__3d019),
+.containerDragBefore__257b9:has(.mentionsBadge__3d019) {
   border-left-color: var(--indicator-unread-mention-border);
   background-color: var(--indicator-unread-mention-background);
 }
-.containerDefault__3187b:has(.mentionsBadge_c2f85b):hover,
-.containerDragBefore_fe91aa:has(.mentionsBadge_c2f85b):hover {
+.containerDefault_ae2ea4:has(.mentionsBadge__3d019):hover,
+.containerDragBefore__257b9:has(.mentionsBadge__3d019):hover {
   background-color: var(--indicator-unread-mention-hover-background);
 }
-.containerDefault__3187b:has(.mentionsBadge_c2f85b) .link__95dc0 svg,
-.containerDragBefore_fe91aa:has(.mentionsBadge_c2f85b) .link__95dc0 svg {
+.containerDefault_ae2ea4:has(.mentionsBadge__3d019) .link_ddbb36 svg,
+.containerDragBefore__257b9:has(.mentionsBadge__3d019) .link_ddbb36 svg {
   color: var(--indicator-unread-mention-border);
 }
-.containerDefault__3187b:has(.modeConnected__1c02e),
-.containerDragBefore_fe91aa:has(.modeConnected__1c02e) {
+.containerDefault_ae2ea4:has(.modeConnected__52a8f),
+.containerDragBefore__257b9:has(.modeConnected__52a8f) {
   border-left-color: var(--indicator-connected-border);
   background-color: var(--indicator-connected-background);
 }
-.containerDefault__3187b:has(.modeConnected__1c02e):hover,
-.containerDragBefore_fe91aa:has(.modeConnected__1c02e):hover {
+.containerDefault_ae2ea4:has(.modeConnected__52a8f):hover,
+.containerDragBefore__257b9:has(.modeConnected__52a8f):hover {
   background-color: var(--indicator-connected-hover-background);
 }
-.containerDefault__3187b:has(.modeConnected__1c02e) .link__95dc0 svg,
-.containerDragBefore_fe91aa:has(.modeConnected__1c02e) .link__95dc0 svg {
+.containerDefault_ae2ea4:has(.modeConnected__52a8f) .link_ddbb36 svg,
+.containerDragBefore__257b9:has(.modeConnected__52a8f) .link_ddbb36 svg {
   color: var(--indicator-connected-border);
 }
 
-.container-1Bj0eq .spineBorder-1-F4s1 {
+.container__342a0 .spineBorder__52981 {
   left: 24px;
 }
 
-.categoryItem_b1be5c {
+.categoryItem__0608f {
   margin: 2px 0;
   padding-left: 8px;
   border-radius: var(--indicator-rounding);
   border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 }
-.categoryItem_b1be5c:hover {
+.categoryItem__0608f:hover {
   background-color: var(--indicator-hover);
 }
-.categoryItem_b1be5c:hover .itemInner__9e755 {
+.categoryItem__0608f:hover .itemInner_eedb2b {
   background-color: transparent;
 }
-.categoryItem_b1be5c.selected__9800b {
+.categoryItem__0608f.selected__7f4cb {
   border-left-color: var(--indicator-selected-border);
   color: var(--interactive-active);
   background-color: var(--indicator-selected-background);
 }
-.categoryItem_b1be5c.selected__9800b .itemInner__9e755 {
+.categoryItem__0608f.selected__7f4cb .itemInner_eedb2b {
   background-color: transparent;
 }
-.categoryItem_b1be5c.selected__9800b svg {
+.categoryItem__0608f.selected__7f4cb svg {
   color: var(--indicator-selected-border);
 }
 
-.channel_c21703 {
+.channel__0aef5 {
   max-width: unset;
   margin: 2px 0;
   padding: 0 0 0 8px;
   border-radius: var(--indicator-rounding);
   border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 }
-.channel_c21703:hover {
+.channel__0aef5:hover {
   background-color: var(--indicator-hover);
 }
-.channel_c21703:has(.selected_d94cf9) {
+.channel__0aef5:has(.selected__37292) {
   border-left-color: var(--indicator-selected-border);
   background-color: var(--indicator-selected-background);
 }
-.channel_c21703:has(.selected_d94cf9):hover {
+.channel__0aef5:has(.selected__37292):hover {
   background-color: var(--indicator-selected-hover-background);
 }
-.channel_c21703:has(.selected_d94cf9) .linkButtonIcon__2f35b, .channel_c21703:has(.selected_d94cf9) .closeButton__8f1fd {
+.channel__0aef5:has(.selected__37292) .linkButtonIcon_cff89e, .channel__0aef5:has(.selected__37292) .closeButton__116c3 {
   color: var(--indicator-selected-border);
 }
-.channel_c21703:has(.highlighted__7bba7) {
+.channel__0aef5:has(.highlighted_e2e5df) {
   border-left-color: var(--indicator-unread-border);
   background-color: var(--indicator-unread-background);
 }
-.channel_c21703:has(.highlighted__7bba7):hover {
+.channel__0aef5:has(.highlighted_e2e5df):hover {
   background-color: var(--indicator-unread-hover-background);
 }
-.channel_c21703:has(.highlighted__7bba7) .linkButtonIcon__2f35b, .channel_c21703:has(.highlighted__7bba7) .closeButton__8f1fd {
+.channel__0aef5:has(.highlighted_e2e5df) .linkButtonIcon_cff89e, .channel__0aef5:has(.highlighted_e2e5df) .closeButton__116c3 {
   color: var(--indicator-unread-border);
 }
-.channel_c21703 .interactive__776ee {
+.channel__0aef5 .interactive__0786a {
   background: transparent;
 }
