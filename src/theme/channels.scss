@@ -1,62 +1,62 @@
-.containerDefault_ae2ea4,
-.containerDragBefore__257b9 {
+.containerDefault_f6f816,
+.containerDragBefore_f6f816 {
     margin: 2px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-    .link_ddbb36 {
+    .link_d8bfb3 {
         background: transparent !important;
     }
-    &.wrapper__612a5 {
+    &.wrapper_d8bfb3 {
         padding-left: 8px;
     }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(.modeSelected__473f1) {
+    &:has(.modeSelected_d8bfb3) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        .link_ddbb36 svg {
+        .link_d8bfb3 svg {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(.modeUnreadImportant__35358) {
+    &:has(.modeUnreadImportant_d8bfb3) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        .unread__48cf4 {
+        .unread_d8bfb3 {
             display: none;
         }
-        .link_ddbb36 svg {
+        .link_d8bfb3 svg {
             color: var(--indicator-unread-border) ;
         }
     }
-    &:has(.mentionsBadge__3d019) {
+    &:has(.mentionsBadge_e2a798) {
         border-left-color: var(--indicator-unread-mention-border);
         background-color: var(--indicator-unread-mention-background);
         &:hover {
             background-color: var(--indicator-unread-mention-hover-background);
         }
-        .link_ddbb36 svg {
+        .link_d8bfb3 svg {
             color: var(--indicator-unread-mention-border) ;
         }
     }
-    &:has(.modeConnected__52a8f) {
+    &:has(.modeConnected_d8bfb3) {
         border-left-color: var(--indicator-connected-border);
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover-background);
         }
-        .link_ddbb36 svg {
+        .link_d8bfb3 svg {
             color: var(--indicator-connected-border) ;
         }
     }
 }
 
-.container__342a0 .spineBorder__52981 {
+.container_e1e976 .spineBorder_e1e976 {
     left: 24px;
 }
