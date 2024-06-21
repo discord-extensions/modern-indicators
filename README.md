@@ -17,7 +17,7 @@ https://discord-extensions.github.io/modern-indicators/src/source.css
 ### ![stylus](https://discord-extensions.github.io/assets/icons/stylus.png) **Stylus**
 > **Warning**
 > Firefox users must have "Patch CSP to allow style assets" enabled for the theme to work. This can be found in Stylus' settings under "Advanced"
-1. Install the broswer extensions for your repsective browser.
+1. Install the browser extensions for your respective browser.
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 2. Once installed, open [this link](https://github.com/discord-extensions/modern-indicators/raw/main/clients/modern-indicators.user.css) in a new browser tab. This opens the page where you will install this userstyle.
@@ -48,7 +48,7 @@ You can add the variables below into your Quick CSS and modify the basic colors.
 ```
 ---
 ### Licensing
-This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rigths and limitations.
+This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rights and limitations.
 
 ### Credits
 Everyone who has contributed can be found on the [CREDITS.md](./CREDITS.md) file. A personal thank you to everyone who has helped!
