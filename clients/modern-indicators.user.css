@@ -3,7 +3,7 @@
 	@name Modern Indicators
 	@author LuckFire
 	@description Updates Discord's indicators to feel more modern.
-	@version 2.2.7
+	@version 2.2.8
 	@namespace https://github.com/discord-extensions/modern-indicators
 	@license MIT
 	==/UserStyle== */
@@ -46,140 +46,134 @@
 	  --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
 	}
 	
-	.containerDefault_f6f816,
-	.containerDragBefore_f6f816 {
+	.containerDefault_c69b6d,
+	.containerDragBefore_c69b6d {
 	  margin: 2px 0;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
-	.containerDefault_f6f816 .link_d8bfb3,
-	.containerDragBefore_f6f816 .link_d8bfb3 {
+	.containerDefault_c69b6d .link__2ea32,
+	.containerDragBefore_c69b6d .link__2ea32 {
 	  background: transparent !important;
 	}
-	.containerDefault_f6f816.wrapper_d8bfb3,
-	.containerDragBefore_f6f816.wrapper_d8bfb3 {
+	.containerDefault_c69b6d.wrapper__2ea32,
+	.containerDragBefore_c69b6d.wrapper__2ea32 {
 	  padding-left: 8px;
 	}
-	.containerDefault_f6f816:hover,
-	.containerDragBefore_f6f816:hover {
+	.containerDefault_c69b6d:hover,
+	.containerDragBefore_c69b6d:hover {
 	  background-color: var(--indicator-hover);
 	}
-	.containerDefault_f6f816:has(.modeSelected_d8bfb3),
-	.containerDragBefore_f6f816:has(.modeSelected_d8bfb3) {
+	.containerDefault_c69b6d:has(.modeSelected__2ea32),
+	.containerDragBefore_c69b6d:has(.modeSelected__2ea32) {
 	  border-left-color: var(--indicator-selected-border);
 	  background-color: var(--indicator-selected-background);
 	}
-	.containerDefault_f6f816:has(.modeSelected_d8bfb3):hover,
-	.containerDragBefore_f6f816:has(.modeSelected_d8bfb3):hover {
+	.containerDefault_c69b6d:has(.modeSelected__2ea32):hover,
+	.containerDragBefore_c69b6d:has(.modeSelected__2ea32):hover {
 	  background-color: var(--indicator-selected-hover-background);
 	}
-	.containerDefault_f6f816:has(.modeSelected_d8bfb3) .link_d8bfb3 svg,
-	.containerDragBefore_f6f816:has(.modeSelected_d8bfb3) .link_d8bfb3 svg {
+	.containerDefault_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg,
+	.containerDragBefore_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg {
 	  color: var(--indicator-selected-border);
 	}
-	.containerDefault_f6f816:has(.modeUnreadImportant_d8bfb3),
-	.containerDragBefore_f6f816:has(.modeUnreadImportant_d8bfb3) {
+	.containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32),
+	.containerDragBefore_c69b6d:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32) {
 	  border-left-color: var(--indicator-unread-border);
 	  background-color: var(--indicator-unread-background);
 	}
-	.containerDefault_f6f816:has(.modeUnreadImportant_d8bfb3):hover,
-	.containerDragBefore_f6f816:has(.modeUnreadImportant_d8bfb3):hover {
+	.containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32):hover,
+	.containerDragBefore_c69b6d:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32):hover {
 	  background-color: var(--indicator-unread-hover-background);
 	}
-	.containerDefault_f6f816:has(.modeUnreadImportant_d8bfb3) .unread_d8bfb3,
-	.containerDragBefore_f6f816:has(.modeUnreadImportant_d8bfb3) .unread_d8bfb3 {
-	  display: none;
-	}
-	.containerDefault_f6f816:has(.modeUnreadImportant_d8bfb3) .link_d8bfb3 svg,
-	.containerDragBefore_f6f816:has(.modeUnreadImportant_d8bfb3) .link_d8bfb3 svg {
+	.containerDefault_c69b6d:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32) .link__2ea32 svg,
+	.containerDragBefore_c69b6d:has(.modeUnreadLessImportant__2ea32, .modeUnreadImportant__2ea32) .link__2ea32 svg {
 	  color: var(--indicator-unread-border);
 	}
-	.containerDefault_f6f816:has(.mentionsBadge_e2a798),
-	.containerDragBefore_f6f816:has(.mentionsBadge_e2a798) {
+	.containerDefault_c69b6d:has(.mentionsBadge__933a1),
+	.containerDragBefore_c69b6d:has(.mentionsBadge__933a1) {
 	  border-left-color: var(--indicator-unread-mention-border);
 	  background-color: var(--indicator-unread-mention-background);
 	}
-	.containerDefault_f6f816:has(.mentionsBadge_e2a798):hover,
-	.containerDragBefore_f6f816:has(.mentionsBadge_e2a798):hover {
+	.containerDefault_c69b6d:has(.mentionsBadge__933a1):hover,
+	.containerDragBefore_c69b6d:has(.mentionsBadge__933a1):hover {
 	  background-color: var(--indicator-unread-mention-hover-background);
 	}
-	.containerDefault_f6f816:has(.mentionsBadge_e2a798) .link_d8bfb3 svg,
-	.containerDragBefore_f6f816:has(.mentionsBadge_e2a798) .link_d8bfb3 svg {
+	.containerDefault_c69b6d:has(.mentionsBadge__933a1) .link__2ea32 svg,
+	.containerDragBefore_c69b6d:has(.mentionsBadge__933a1) .link__2ea32 svg {
 	  color: var(--indicator-unread-mention-border);
 	}
-	.containerDefault_f6f816:has(.modeConnected_d8bfb3),
-	.containerDragBefore_f6f816:has(.modeConnected_d8bfb3) {
+	.containerDefault_c69b6d:has(.modeConnected__2ea32),
+	.containerDragBefore_c69b6d:has(.modeConnected__2ea32) {
 	  border-left-color: var(--indicator-connected-border);
 	  background-color: var(--indicator-connected-background);
 	}
-	.containerDefault_f6f816:has(.modeConnected_d8bfb3):hover,
-	.containerDragBefore_f6f816:has(.modeConnected_d8bfb3):hover {
+	.containerDefault_c69b6d:has(.modeConnected__2ea32):hover,
+	.containerDragBefore_c69b6d:has(.modeConnected__2ea32):hover {
 	  background-color: var(--indicator-connected-hover-background);
 	}
-	.containerDefault_f6f816:has(.modeConnected_d8bfb3) .link_d8bfb3 svg,
-	.containerDragBefore_f6f816:has(.modeConnected_d8bfb3) .link_d8bfb3 svg {
+	.containerDefault_c69b6d:has(.modeConnected__2ea32) .link__2ea32 svg,
+	.containerDragBefore_c69b6d:has(.modeConnected__2ea32) .link__2ea32 svg {
 	  color: var(--indicator-connected-border);
 	}
+	.containerDefault_c69b6d .unread__2ea32,
+	.containerDragBefore_c69b6d .unread__2ea32 {
+	  display: none;
+	}
 	
-	.container_e1e976 .spineBorder_e1e976 {
+	.container__5b40b .spineBorder__5b40b {
 	  left: 24px;
 	}
 	
-	.categoryItem_c72b37 {
+	.navItem__551b0 {
 	  margin: 2px 0;
 	  padding-left: 8px;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
-	.categoryItem_c72b37:hover {
+	.navItem__551b0:hover {
 	  background-color: var(--indicator-hover);
 	}
-	.categoryItem_c72b37:hover .itemInner_c72b37 {
-	  background-color: transparent;
-	}
-	.categoryItem_c72b37.selected_e9f61e {
+	.navItem__551b0.selected__551b0 {
 	  border-left-color: var(--indicator-selected-border);
 	  color: var(--interactive-active);
 	  background-color: var(--indicator-selected-background);
 	}
-	.categoryItem_c72b37.selected_e9f61e .itemInner_c72b37 {
-	  background-color: transparent;
-	}
-	.categoryItem_c72b37.selected_e9f61e svg {
+	.navItem__551b0.selected__551b0 svg {
 	  color: var(--indicator-selected-border);
 	}
 	
-	.channel_c91bad {
+	.channel__972a0 {
 	  max-width: unset;
 	  margin: 2px 0;
 	  padding: 0 0 0 8px;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
-	.channel_c91bad:hover {
+	.channel__972a0:hover {
 	  background-color: var(--indicator-hover);
 	}
-	.channel_c91bad:has(.selected_f5eb4b) {
+	.channel__972a0:has(.selected_bf202d) {
 	  border-left-color: var(--indicator-selected-border);
 	  background-color: var(--indicator-selected-background);
 	}
-	.channel_c91bad:has(.selected_f5eb4b):hover {
+	.channel__972a0:has(.selected_bf202d):hover {
 	  background-color: var(--indicator-selected-hover-background);
 	}
-	.channel_c91bad:has(.selected_f5eb4b) .linkButtonIcon_c91bad, .channel_c91bad:has(.selected_f5eb4b) .closeButton_c91bad {
+	.channel__972a0:has(.selected_bf202d) .linkButtonIcon__972a0, .channel__972a0:has(.selected_bf202d) .closeButton__972a0 {
 	  color: var(--indicator-selected-border);
 	}
-	.channel_c91bad:has(.highlighted_f9647d) {
+	.channel__972a0:has(.highlighted__20a53) {
 	  border-left-color: var(--indicator-unread-border);
 	  background-color: var(--indicator-unread-background);
 	}
-	.channel_c91bad:has(.highlighted_f9647d):hover {
+	.channel__972a0:has(.highlighted__20a53):hover {
 	  background-color: var(--indicator-unread-hover-background);
 	}
-	.channel_c91bad:has(.highlighted_f9647d) .linkButtonIcon_c91bad, .channel_c91bad:has(.highlighted_f9647d) .closeButton_c91bad {
+	.channel__972a0:has(.highlighted__20a53) .linkButtonIcon__972a0, .channel__972a0:has(.highlighted__20a53) .closeButton__972a0 {
 	  color: var(--indicator-unread-border);
 	}
-	.channel_c91bad .interactive_f5eb4b {
+	.channel__972a0 .interactive_bf202d {
 	  background: transparent;
 	}
 }
