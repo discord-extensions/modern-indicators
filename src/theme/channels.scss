@@ -1,67 +1,67 @@
-.containerDefault_c69b6d,
-.containerDragBefore_c69b6d {
+.containerDefault_Wx6SnQ,
+.containerDragBefore_Wx6SnQ {
     margin: 2px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-    .link__2ea32 {
+    .link_TNyK-N {
         background: transparent !important;
     }
-    &.wrapper__2ea32 {
+    &.wrapper_TNyK-N {
         padding-left: 8px;
     }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(.modeSelected__2ea32) {
+    &:has(.modeSelected_TNyK-N) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        .link__2ea32 svg {
+        .link_TNyK-N svg {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(.modeUnreadImportant__2ea32) {
+    &:has(.modeUnreadImportant_TNyK-N) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        .link__2ea32 svg {
+        .link_TNyK-N svg {
             color: var(--indicator-unread-border) ;
         }
     }
-    &:has(.mentionsBadge__933a1) {
+    &:has(.mentionsBadge_iclnS3) {
         border-left-color: var(--indicator-unread-mention-border);
         background-color: var(--indicator-unread-mention-background);
         &:hover {
             background-color: var(--indicator-unread-mention-hover-background);
         }
-        .link__2ea32 svg {
+        .link_TNyK-N svg {
             color: var(--indicator-unread-mention-border) ;
         }
     }
-    &:has(.modeConnected__2ea32) {
+    &:has(.modeConnected_TNyK-N) {
         border-left-color: var(--indicator-connected-border);
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover-background);
         }
-        .link__2ea32 svg {
+        .link_TNyK-N svg {
             color: var(--indicator-connected-border) ;
         }
     }
 
-    .unread__2ea32 {
+    .unread_TNyK-N {
         display: none;
     }
 }
 
-.container__5b40b .spineBorder__5b40b {
+.container_reDhww .spineBorder_reDhww {
     left: 24px;
 }
 
-.voiceChannelHighlightBorder_c69b6d, .voiceChannelHighlightGlow_c69b6d {
+.voiceChannelHighlightBorder_Wx6SnQ, .voiceChannelHighlightGlow_Wx6SnQ {
   display: none;
 }

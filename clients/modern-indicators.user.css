@@ -3,7 +3,7 @@
 	@name Modern Indicators
 	@author LuckFire
 	@description Updates Discord's indicators to feel more modern.
-	@version 2.2.10
+	@version 2.2.11
 	@namespace https://github.com/discord-extensions/modern-indicators
 	@license MIT
 	==/UserStyle== */
@@ -46,138 +46,138 @@
 	  --indicator-connected-hover-background: hsla(var(--indicator-connected)/0.25);
 	}
 	
-	.containerDefault_c69b6d,
-	.containerDragBefore_c69b6d {
+	.containerDefault_Wx6SnQ,
+	.containerDragBefore_Wx6SnQ {
 	  margin: 2px 0;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
-	.containerDefault_c69b6d .link__2ea32,
-	.containerDragBefore_c69b6d .link__2ea32 {
+	.containerDefault_Wx6SnQ .link_TNyK-N,
+	.containerDragBefore_Wx6SnQ .link_TNyK-N {
 	  background: transparent !important;
 	}
-	.containerDefault_c69b6d.wrapper__2ea32,
-	.containerDragBefore_c69b6d.wrapper__2ea32 {
+	.containerDefault_Wx6SnQ.wrapper_TNyK-N,
+	.containerDragBefore_Wx6SnQ.wrapper_TNyK-N {
 	  padding-left: 8px;
 	}
-	.containerDefault_c69b6d:hover,
-	.containerDragBefore_c69b6d:hover {
+	.containerDefault_Wx6SnQ:hover,
+	.containerDragBefore_Wx6SnQ:hover {
 	  background-color: var(--indicator-hover);
 	}
-	.containerDefault_c69b6d:has(.modeSelected__2ea32),
-	.containerDragBefore_c69b6d:has(.modeSelected__2ea32) {
+	.containerDefault_Wx6SnQ:has(.modeSelected_TNyK-N),
+	.containerDragBefore_Wx6SnQ:has(.modeSelected_TNyK-N) {
 	  border-left-color: var(--indicator-selected-border);
 	  background-color: var(--indicator-selected-background);
 	}
-	.containerDefault_c69b6d:has(.modeSelected__2ea32):hover,
-	.containerDragBefore_c69b6d:has(.modeSelected__2ea32):hover {
+	.containerDefault_Wx6SnQ:has(.modeSelected_TNyK-N):hover,
+	.containerDragBefore_Wx6SnQ:has(.modeSelected_TNyK-N):hover {
 	  background-color: var(--indicator-selected-hover-background);
 	}
-	.containerDefault_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg,
-	.containerDragBefore_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg {
+	.containerDefault_Wx6SnQ:has(.modeSelected_TNyK-N) .link_TNyK-N svg,
+	.containerDragBefore_Wx6SnQ:has(.modeSelected_TNyK-N) .link_TNyK-N svg {
 	  color: var(--indicator-selected-border);
 	}
-	.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32),
-	.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32) {
+	.containerDefault_Wx6SnQ:has(.modeUnreadImportant_TNyK-N),
+	.containerDragBefore_Wx6SnQ:has(.modeUnreadImportant_TNyK-N) {
 	  border-left-color: var(--indicator-unread-border);
 	  background-color: var(--indicator-unread-background);
 	}
-	.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32):hover,
-	.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32):hover {
+	.containerDefault_Wx6SnQ:has(.modeUnreadImportant_TNyK-N):hover,
+	.containerDragBefore_Wx6SnQ:has(.modeUnreadImportant_TNyK-N):hover {
 	  background-color: var(--indicator-unread-hover-background);
 	}
-	.containerDefault_c69b6d:has(.modeUnreadImportant__2ea32) .link__2ea32 svg,
-	.containerDragBefore_c69b6d:has(.modeUnreadImportant__2ea32) .link__2ea32 svg {
+	.containerDefault_Wx6SnQ:has(.modeUnreadImportant_TNyK-N) .link_TNyK-N svg,
+	.containerDragBefore_Wx6SnQ:has(.modeUnreadImportant_TNyK-N) .link_TNyK-N svg {
 	  color: var(--indicator-unread-border);
 	}
-	.containerDefault_c69b6d:has(.mentionsBadge__933a1),
-	.containerDragBefore_c69b6d:has(.mentionsBadge__933a1) {
+	.containerDefault_Wx6SnQ:has(.mentionsBadge_iclnS3),
+	.containerDragBefore_Wx6SnQ:has(.mentionsBadge_iclnS3) {
 	  border-left-color: var(--indicator-unread-mention-border);
 	  background-color: var(--indicator-unread-mention-background);
 	}
-	.containerDefault_c69b6d:has(.mentionsBadge__933a1):hover,
-	.containerDragBefore_c69b6d:has(.mentionsBadge__933a1):hover {
+	.containerDefault_Wx6SnQ:has(.mentionsBadge_iclnS3):hover,
+	.containerDragBefore_Wx6SnQ:has(.mentionsBadge_iclnS3):hover {
 	  background-color: var(--indicator-unread-mention-hover-background);
 	}
-	.containerDefault_c69b6d:has(.mentionsBadge__933a1) .link__2ea32 svg,
-	.containerDragBefore_c69b6d:has(.mentionsBadge__933a1) .link__2ea32 svg {
+	.containerDefault_Wx6SnQ:has(.mentionsBadge_iclnS3) .link_TNyK-N svg,
+	.containerDragBefore_Wx6SnQ:has(.mentionsBadge_iclnS3) .link_TNyK-N svg {
 	  color: var(--indicator-unread-mention-border);
 	}
-	.containerDefault_c69b6d:has(.modeConnected__2ea32),
-	.containerDragBefore_c69b6d:has(.modeConnected__2ea32) {
+	.containerDefault_Wx6SnQ:has(.modeConnected_TNyK-N),
+	.containerDragBefore_Wx6SnQ:has(.modeConnected_TNyK-N) {
 	  border-left-color: var(--indicator-connected-border);
 	  background-color: var(--indicator-connected-background);
 	}
-	.containerDefault_c69b6d:has(.modeConnected__2ea32):hover,
-	.containerDragBefore_c69b6d:has(.modeConnected__2ea32):hover {
+	.containerDefault_Wx6SnQ:has(.modeConnected_TNyK-N):hover,
+	.containerDragBefore_Wx6SnQ:has(.modeConnected_TNyK-N):hover {
 	  background-color: var(--indicator-connected-hover-background);
 	}
-	.containerDefault_c69b6d:has(.modeConnected__2ea32) .link__2ea32 svg,
-	.containerDragBefore_c69b6d:has(.modeConnected__2ea32) .link__2ea32 svg {
+	.containerDefault_Wx6SnQ:has(.modeConnected_TNyK-N) .link_TNyK-N svg,
+	.containerDragBefore_Wx6SnQ:has(.modeConnected_TNyK-N) .link_TNyK-N svg {
 	  color: var(--indicator-connected-border);
 	}
-	.containerDefault_c69b6d .unread__2ea32,
-	.containerDragBefore_c69b6d .unread__2ea32 {
+	.containerDefault_Wx6SnQ .unread_TNyK-N,
+	.containerDragBefore_Wx6SnQ .unread_TNyK-N {
 	  display: none;
 	}
 	
-	.container__5b40b .spineBorder__5b40b {
+	.container_reDhww .spineBorder_reDhww {
 	  left: 24px;
 	}
 	
-	.voiceChannelHighlightBorder_c69b6d, .voiceChannelHighlightGlow_c69b6d {
+	.voiceChannelHighlightBorder_Wx6SnQ, .voiceChannelHighlightGlow_Wx6SnQ {
 	  display: none;
 	}
 	
-	.navItem__551b0 {
+	.navItem_GQJi50 {
 	  margin: 2px 0;
 	  padding-left: 8px;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
-	.navItem__551b0:hover {
+	.navItem_GQJi50:hover {
 	  background-color: var(--indicator-hover);
 	}
-	.navItem__551b0.selected__551b0 {
+	.navItem_GQJi50.selected_GQJi50 {
 	  border-left-color: var(--indicator-selected-border);
 	  color: var(--interactive-active);
 	  background-color: var(--indicator-selected-background);
 	}
-	.navItem__551b0.selected__551b0 svg {
+	.navItem_GQJi50.selected_GQJi50 svg {
 	  color: var(--indicator-selected-border);
 	}
 	
-	.channel__972a0 {
+	.channel_zln_tS {
 	  max-width: unset;
 	  margin: 2px 0;
 	  padding: 0 0 0 8px;
 	  border-radius: var(--indicator-rounding);
 	  border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
 	}
-	.channel__972a0:hover {
+	.channel_zln_tS:hover {
 	  background-color: var(--indicator-hover);
 	}
-	.channel__972a0:has(.selected_bf202d) {
+	.channel_zln_tS:has(.selected_nl_k3a) {
 	  border-left-color: var(--indicator-selected-border);
 	  background-color: var(--indicator-selected-background);
 	}
-	.channel__972a0:has(.selected_bf202d):hover {
+	.channel_zln_tS:has(.selected_nl_k3a):hover {
 	  background-color: var(--indicator-selected-hover-background);
 	}
-	.channel__972a0:has(.selected_bf202d) .linkButtonIcon__972a0, .channel__972a0:has(.selected_bf202d) .closeButton__972a0 {
+	.channel_zln_tS:has(.selected_nl_k3a) .linkButtonIcon_zln_tS, .channel_zln_tS:has(.selected_nl_k3a) .closeButton_zln_tS {
 	  color: var(--indicator-selected-border);
 	}
-	.channel__972a0:has(.highlighted__20a53) {
+	.channel_zln_tS:has(.highlighted_TBNqol) {
 	  border-left-color: var(--indicator-unread-border);
 	  background-color: var(--indicator-unread-background);
 	}
-	.channel__972a0:has(.highlighted__20a53):hover {
+	.channel_zln_tS:has(.highlighted_TBNqol):hover {
 	  background-color: var(--indicator-unread-hover-background);
 	}
-	.channel__972a0:has(.highlighted__20a53) .linkButtonIcon__972a0, .channel__972a0:has(.highlighted__20a53) .closeButton__972a0 {
+	.channel_zln_tS:has(.highlighted_TBNqol) .linkButtonIcon_zln_tS, .channel_zln_tS:has(.highlighted_TBNqol) .closeButton_zln_tS {
 	  color: var(--indicator-unread-border);
 	}
-	.channel__972a0 .interactive_bf202d {
+	.channel_zln_tS .interactive_nl_k3a {
 	  background: transparent;
 	}
 }
