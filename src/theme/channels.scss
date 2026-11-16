@@ -1,67 +1,67 @@
-.c69b6db0641110f6-containerDefault,
-.c69b6db0641110f6-containerDragBefore {
+.containerDefault_Wx6SnQ,
+.containerDragBefore_Wx6SnQ {
     margin: 2px 0;
     border-radius: var(--indicator-rounding);
     border-left: var(--indicator-border-size) var(--indicator-border-style) transparent;
-    ._2ea32c412048f708-link {
+    .link_TNyK-N {
         background: transparent !important;
     }
-    &._2ea32c412048f708-wrapper {
+    &.wrapper_TNyK-N {
         padding-left: 8px;
     }
     &:hover {
         background-color: var(--indicator-hover);
     }
-    &:has(._2ea32c412048f708-modeSelected) {
+    &:has(.modeSelected_TNyK-N) {
         border-left-color: var(--indicator-selected-border);
         background-color: var(--indicator-selected-background);
         &:hover {
             background-color: var(--indicator-selected-hover-background);
         }
-        ._2ea32c412048f708-link svg {
+        .link_TNyK-N svg {
             color: var(--indicator-selected-border);
         }
     }
-    &:has(._2ea32c412048f708-modeUnreadImportant) {
+    &:has(.modeUnreadImportant_TNyK-N) {
         border-left-color: var(--indicator-unread-border);
         background-color: var(--indicator-unread-background);
         &:hover {
             background-color: var(--indicator-unread-hover-background);
         }
-        ._2ea32c412048f708-link svg {
+        .link_TNyK-N svg {
             color: var(--indicator-unread-border) ;
         }
     }
-    &:has(._933a166a2ed4d49c-mentionsBadge) {
+    &:has(.mentionsBadge_iclnS3) {
         border-left-color: var(--indicator-unread-mention-border);
         background-color: var(--indicator-unread-mention-background);
         &:hover {
             background-color: var(--indicator-unread-mention-hover-background);
         }
-        ._2ea32c412048f708-link svg {
+        .link_TNyK-N svg {
             color: var(--indicator-unread-mention-border) ;
         }
     }
-    &:has(._2ea32c412048f708-modeConnected) {
+    &:has(.modeConnected_TNyK-N) {
         border-left-color: var(--indicator-connected-border);
         background-color: var(--indicator-connected-background);
         &:hover {
             background-color: var(--indicator-connected-hover-background);
         }
-        ._2ea32c412048f708-link svg {
+        .link_TNyK-N svg {
             color: var(--indicator-connected-border) ;
         }
     }
 
-    ._2ea32c412048f708-unread {
+    .unread_TNyK-N {
         display: none;
     }
 }
 
-._5b40bdd67543ba35-container ._5b40bdd67543ba35-spineBorder {
+.container_reDhww .spineBorder_reDhww {
     left: 24px;
 }
 
-.c69b6db0641110f6-voiceChannelHighlightBorder, .c69b6db0641110f6-voiceChannelHighlightGlow {
+.voiceChannelHighlightBorder_Wx6SnQ, .voiceChannelHighlightGlow_Wx6SnQ {
   display: none;
 }
